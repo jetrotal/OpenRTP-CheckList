@@ -1,25 +1,4 @@
 var assetProgress = ["review", "error", "wip", "default"];
-
-document.body.innerHTML+=`<style>
-#assetPointer{
-    vertical-align: middle;
-}
-.inner {
-    position: relative;
-    max-width: calc(100% - 100px) !important;
-}
-summary{
-cursor: pointer
-}
-</style>`
-
-var checklist = `
-<table>
-<thead id="assetPointer"><tr><td>
-
-⬛ Waiting for An Artist &emsp; 🟨 In Progress &emsp; 🟦 Under Review &emsp; 🟩 Done &emsp; 🟥 Something Went Wrong 
-</tr></td></thead></table>`;
-
 var gitData = {
     user: "jetrotal",
     repo: "OpenRTP-CheckList",
@@ -27,6 +6,13 @@ var gitData = {
     rtpFolder: "2000+2003 RTP",
     assetsFolders: ["Backdrop","Battle","BattleCharSet","BattleWeapon","CharSet","ChipSet","FaceSet","GameOver","Monster","Music","Panorama","Sound","System","System2","Title"]
 }
+
+var checklist = `
+<table>
+<thead id="assetPointer"><tr><td>
+
+⬛ Waiting for An Artist &emsp; 🟨 In Progress &emsp; 🟦 Under Review &emsp; 🟩 Done &emsp; 🟥 Something Went Wrong 
+</tr></td></thead></table>`;
 
 async function list_directory(user, repo, directory,branch) {
     const url = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
