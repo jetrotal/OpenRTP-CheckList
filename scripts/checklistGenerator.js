@@ -52,7 +52,7 @@ function settingFolders(result) {
     });
 
     gitData.assetsFolders.forEach(function(item) {
-            checklist += `<h2>`+item + `</h2> 
+            checklist += `<section id="sc`+item+`"> <h2>`+item + `</h2> 
 <details> <summary>Details</summary><br>`;
             rtp[item].forEach(function(asset) {
                 var currBranch= gitData.branch
@@ -90,7 +90,7 @@ function settingFolders(result) {
 
 `
             });
-        checklist += `</details><br>
+        checklist += `</details></section><br>
 `
     });
     document.getElementById("main_content").innerHTML = checklist
