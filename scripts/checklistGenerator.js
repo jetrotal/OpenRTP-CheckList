@@ -1,4 +1,3 @@
-clear();
 document.body.innerHTML+=`<style>
 #assetPointer{
     vertical-align: middle;
