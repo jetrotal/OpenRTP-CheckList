@@ -124,7 +124,7 @@ if (mode < arr.length -1){
 }
 }
 //arr[progressMode]
-    image.src = arr[mode];
+   if (mode < arr.length -1) image.src = arr[mode];
     if (mode == arr.length -1) image.style.opacity ="0"
     
 }
