@@ -1,3 +1,5 @@
+var assetProgress = ["review", "error", "wip", "default"];
+
 document.body.innerHTML+=`<style>
 #assetPointer{
     vertical-align: middle;
@@ -10,7 +12,7 @@ summary{
 cursor: pointer
 }
 </style>`
-var assetProgress = ["review", "error", "wip", "default"];
+
 var checklist = `
 <table>
 <thead id="assetPointer"><tr><td>
