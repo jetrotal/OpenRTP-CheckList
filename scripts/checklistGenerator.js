@@ -1,20 +1,19 @@
-var assetProgress = ["review", "error", "wip", "default"];
 var gitData = {
     user: "jetrotal",
     repo: "OpenRTP-CheckList",
-    branch:"default",
+    branch: "default",
     rtpFolder: "2000+2003 RTP",
-    assetsFolders: ["Backdrop","Battle","BattleCharSet","BattleWeapon","CharSet","ChipSet","FaceSet","GameOver","Monster","Music","Panorama","Sound","System","System2","Title"]
+    assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
+var assetProgress = ["review", "error", "wip", "default"];
+
 
 var checklist = `
-<table>
-<thead id="assetPointer"><tr><td>
-
+<table><thead id="assetPointer"><tr><td>
 ⬛ Waiting for An Artist &emsp; 🟨 In Progress &emsp; 🟦 Under Review &emsp; 🟩 Done &emsp; 🟥 Something Went Wrong 
 </tr></td></thead></table>`;
 
-async function list_directory(user, repo, directory,branch) {
+async function list_directory(user, repo, directory, branch) {
     const url = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
     directory = directory.split('/').filter(Boolean);
     const dir = await directory.reduce(async (acc, dir) => {
@@ -40,28 +39,28 @@ function settingFolders(result) {
     });
 
     gitData.assetsFolders.forEach(function(item) {
-            checklist += `<section id="sc`+item+`"> <h2>`+item + `</h2> 
+        checklist += `<section id="sc` + item + `"> <h2>` + item + `</h2> 
 <details> <summary>Details</summary><br>`;
-            rtp[item].forEach(function(asset) {
-                var currBranch= gitData.branch
-                var imgA = encodeURI(`https://raw.githubusercontent.com/`+gitData.user+`/`+gitData.repo+`/`+gitData.branch+`/`+gitData.rtpFolder+`/`+item+`/`+asset);
-                var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/`+item+`/`+asset);
-                var imgPath = [imgCache];
-                assetProgress.forEach(function(progress) {
-                    imgPath.push( encodeURI(`https://raw.githubusercontent.com/`+gitData.user+`/`+gitData.repo+`/`+progress+`/`+gitData.rtpFolder+`/`+item+`/`+asset) );
-                });
-                var imgB = imgPath[0]
-                
-              checklist += 
-`<table>
+        rtp[item].forEach(function(asset) {
+            var currBranch = gitData.branch
+            var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + asset);
+            var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + asset);
+            var imgPath = [imgCache];
+            assetProgress.forEach(function(progress) {
+                imgPath.push(encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + progress + `/` + gitData.rtpFolder + `/` + item + `/` + asset));
+            });
+            var imgB = imgPath[0]
+
+            checklist +=
+                `<table>
 <thead>
 <tr>
-<th>⬛ `+asset+` </th>
+<th>⬛ ` + asset + ` </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><br><br></div><table><tbody><tr><td><img src="`+imgA+`">   </td><td id="assetPointer">👉</td>  <td> <img src="`+imgB+`" onerror='checkStatus(this,`+JSON.stringify(imgPath)+`)'> </td></tr></tbody></table>  <table>
+<td><br><br></div><table><tbody><tr><td><img src="` + imgA + `">   </td><td id="assetPointer">👉</td>  <td> <img src="` + imgB + `" onerror='checkStatus(this,` + JSON.stringify(imgPath) + `)'> </td></tr></tbody></table>  <table>
 
 
 </table>
@@ -77,7 +76,7 @@ function settingFolders(result) {
 </tr></tbody></table>
 
 `
-            });
+        });
         checklist += `</details></section><br>
 `
     });
@@ -90,8 +89,8 @@ function failureCallback(error) {
 }
 
 function start() {
-  if (!rtp) return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
-  else settingFolders(gitData.assetsFolders)
+    if (!rtp) return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
+    else settingFolders(gitData.assetsFolders)
 
 }
 
@@ -101,20 +100,17 @@ function getAsset(item) {
     }, failureCallback);
 }
 
-function checkStatus(image,arr, mode=0){
+function checkStatus(image, arr, mode = 0) {
+    image.onerror = function() {
+        if (mode < arr.length - 1) {
+            mode++
+            checkStatus(image, arr, mode)
+        }
+    }
+    //arr[progressMode]
+    if (mode < arr.length - 1) image.src = arr[mode];
+    if (mode == arr.length - 1) image.style.opacity = "0"
 
-
-image.onerror = function() {
-    
-if (mode < arr.length -1){
-    mode++
-   checkStatus(image,arr, mode)
-}
-}
-//arr[progressMode]
-   if (mode < arr.length -1) image.src = arr[mode];
-    if (mode == arr.length -1) image.style.opacity ="0"
-    
 }
 
 
