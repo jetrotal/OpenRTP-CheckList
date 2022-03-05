@@ -1,13 +1,15 @@
-var checklist = `
-<style>
+document.body.innerHTML+=`<style>
 #assetPointer{
     vertical-align: middle;
-};
+}
 .inner {
     position: relative;
-    max-width: calc(100% - 100px);
+    max-width: calc(100% - 100px) !important;
 }
-</style>
+</style>`
+
+var checklist = `
+
 <table><h1>OpenRTP CheckList</h1>
 <thead id="assetPointer"><tr><td>
 
