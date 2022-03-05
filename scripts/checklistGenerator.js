@@ -103,7 +103,7 @@ function getAsset(item) {
 
 function checkStatus(image, arr, mode = 0) {
     image.onerror = function() {
-        if (mode < arr.length - 1) {
+        if (mode < arr.length) {
             mode++
             checkStatus(image, arr, mode)
         }
