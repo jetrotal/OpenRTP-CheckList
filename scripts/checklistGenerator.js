@@ -90,7 +90,8 @@ function failureCallback(error) {
 
 function start() {
     if (!rtp) return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
-    else settingFolders(gitData.assetsFolders)
+    else settingFolders(gitData.assetsFolders);
+    injectCSS();
 
 }
 
