@@ -1,1 +1,2 @@
-<script src="./scripts/checklistGenerator.js"></script>
+<script src="./scripts/rtpFiles.js></script>
+<script src="./scripts/checklistGenerator.js" defer></script>
