@@ -109,7 +109,7 @@ function checkStatus(image, arr, mode = 0) {
         }
     }
     //arr[progressMode]
-    if (mode < arr.length - 1) image.src = arr[mode];
+    if (mode < arr.length) image.src = arr[mode];
     if (mode == arr.length - 1) image.style.opacity = "0"
 
 }
