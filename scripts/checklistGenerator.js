@@ -1,7 +1,17 @@
-var checklist = `<table><h1>OpenRTP CheckList</h1>
-<thead><tr><td>
-<img width="882" height="0.1">
-⬛ Waiting for An Artist <br>🟨 In Progress <br>🟦 Under Avaliation <br>🟩 Done <br>🟥 Something Went Wrong <br><br>
+var checklist = `
+<style>
+#assetPointer{
+    vertical-align: middle;
+};
+.inner {
+    position: relative;
+    max-width: calc(100% - 100px);
+}
+</style>
+<table><h1>OpenRTP CheckList</h1>
+<thead id="assetPointer"><tr><td>
+
+⬛ Waiting for An Artist <br>🟨 In Progress <br>🟦 Under Review <br>🟩 Done <br>🟥 Something Went Wrong 
 </tr></td></thead></table>`;
 
 var rtp = {
@@ -894,7 +904,7 @@ function settingFolders(result) {
 </thead>
 <tbody>
 <tr>
-<td><img width="882" height="0.1" style="max-width: 100%;"><table><tbody><tr><td><img src="`+imgA+`">   </td><td>👉</td>  <td> <img src="`+imgA+`"> </td></tr></tbody></table>  <table>
+<td><br><br></div><table><tbody><tr><td><img src="`+imgA+`">   </td><td id="assetPointer">👉</td>  <td> <img src="`+imgA+`"> </td></tr></tbody></table>  <table>
 
 
 </table>
