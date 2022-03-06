@@ -7,7 +7,7 @@ var gitData = {
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
 
-var assetStatus = ["⬛ Waiting for An Artist "," 🟨 In Progress "," 🟦 Under Review "," 🟩 Done "," 🟥 Something Went Wrong "];
+var assetStatus = ["⬛ Waiting for An Artist", "🟨 In Progress", "🟦 Under Review", "🟩 Done", "🟥 Something Went Wrong"];
 var assetProgress = ["review", "error", "wip", "default"];
 var assetReordered = [assetStatus[2],assetStatus[4],assetStatus[1],assetStatus[0]];
 
