@@ -7,11 +7,11 @@ var gitData = {
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
 var assetProgress = ["review", "error", "wip", "default"];
-var assetStatus = "⬛ Waiting for An Artist "," 🟨 In Progress "," 🟦 Under Review "," 🟩 Done "," 🟥 Something Went Wrong "
+var assetStatus = ["⬛ Waiting for An Artist "," 🟨 In Progress "," 🟦 Under Review "," 🟩 Done "," 🟥 Something Went Wrong "]
 
 
 var checklist = `
-<table><thead id="assetPointer"><tr><td>` + arr.join(' &emsp; ') + `</tr></td></thead></table>`;
+<table><thead id="assetPointer"><tr><td>` + assetStatus.join(' &emsp; ') + `</tr></td></thead></table>`;
 
 async function list_directory(user, repo, directory, branch) {
     const url = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
