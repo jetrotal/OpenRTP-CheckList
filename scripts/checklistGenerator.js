@@ -6,9 +6,10 @@ var gitData = {
     rtpFolder: "2000+2003 RTP",
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
-var assetProgress = ["review", "error", "wip", "default"];
-var assetStatus = ["⬛ Waiting for An Artist "," 🟨 In Progress "," 🟦 Under Review "," 🟩 Done "," 🟥 Something Went Wrong "]
 
+var assetStatus = ["⬛ Waiting for An Artist "," 🟨 In Progress "," 🟦 Under Review "," 🟩 Done "," 🟥 Something Went Wrong "];
+var assetProgress = ["review", "error", "wip", "default"];
+var assetReordered = [assetStatus[2],assetStatus[4],assetStatus[1],assetStatus[0]];
 
 var checklist = `
 <table><thead id="assetPointer"><tr><td>` + assetStatus.join(' &emsp; ') + `</tr></td></thead></table>`;
@@ -55,7 +56,7 @@ function settingFolders(result) {
                 `<table>
 <thead>
 <tr>
-<th>⬛ ` + asset + ` </th>
+<th id="itemTitle">🟩 ` + asset + ` </th>
 </tr>
 </thead>
 <tbody>
@@ -65,10 +66,10 @@ function settingFolders(result) {
 
 </table>
 <ul>
-<strong>STATUS</strong>: Free Slot<br>
+<strong>STATUS</strong>: <x id="itemStatus">🟩 Done </x><br>
 <strong>ORIGINALLY FROM</strong>: RPG Maker 2000/2003<br>
 <strong>REPLACEMENT AUTHOR</strong>: No Author<br>
-<strong>LICENSE</strong>: None<br>
+<strong>LICENSE</strong>: <x id="itemLicense">CC0</x><br>
 <strong>SOURCES</strong>: None</li>
 </ul>
 
@@ -102,6 +103,18 @@ function getAsset(item) {
 }
 
 function checkStatus(image, arr, mode = 0) {
+    image.onload = function(){
+        var item = image.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
+        
+        var itemTitle = item.querySelector("#itemTitle");
+        itemTitle.innerHTML = assetReordered[mode -1][0] + " " + itemTitle.innerHTML.substring(itemTitle.innerHTML.indexOf(' ') + 1);
+
+        var itemStatus = item.querySelector("#itemStatus")
+        itemStatus.innerHTML = assetReordered[mode -1].substring(assetReordered.indexOf(' ') + 1);
+
+        var itemLicense = item.querySelector("#itemLicense")
+        itemLicense.innerHTML = "None";
+    }
     image.onerror = function() {
         if (mode < arr.length) {
             mode++
@@ -111,6 +124,7 @@ function checkStatus(image, arr, mode = 0) {
     //arr[progressMode]
     if (mode < arr.length) image.src = arr[mode]+"?"+timeStamp;
     if (mode == arr.length - 1) image.style.opacity = "0"
+    
 
 }
 
