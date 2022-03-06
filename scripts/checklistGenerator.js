@@ -6,10 +6,21 @@ var gitData = {
     rtpFolder: "2000+2003 RTP",
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
+var asset = {
+    default: {icon:"⬛", status:"Waiting for An Artist"}, 
+    wip: {icon:"🟨", status:"In Progress"}, 
+    review: {icon:"🟦", status:" Under Review"}, 
+    done: {icon:"🟩", status:" Done"}, 
+    error: {icon:"🟥", status:" Something Went Wrong"}
+};
 
-var assetStatus = ["⬛ Waiting for An Artist", "🟨 In Progress", "🟦 Under Review", "🟩 Done", "🟥 Something Went Wrong"];
-var assetProgress = ["review", "error", "wip", "default"];
-var assetReordered = [assetStatus[2],assetStatus[4],assetStatus[1],assetStatus[0]];
+var assetStatus = [Object.values(asset.default).join(' '), 
+                   Object.values(asset.wip).join(' '), 
+                   Object.values(asset.review).join(' '), 
+                   Object.values(asset.done).join(' '), 
+                   Object.values(asset.error).join(' ')];
+
+var assetPriority = ["review", "error", "wip", "default"];
 
 var checklist = `
 <table><thead id="assetPointer"><tr><td>` + assetStatus.join(' &emsp; ') + `</tr></td></thead></table>`;
@@ -47,7 +58,7 @@ function settingFolders(result) {
             var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + asset);
             var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + asset);
             var imgPath = [imgCache];
-            assetProgress.forEach(function(progress) {
+            assetPriority.forEach(function(progress) {
                 imgPath.push(encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + progress + `/` + gitData.rtpFolder + `/` + item + `/` + asset));
             });
             var imgB = imgPath[0]
@@ -105,12 +116,13 @@ function getAsset(item) {
 function checkStatus(image, arr, mode = 0) {
     image.onload = function(){
         var item = image.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
+        var priority = assetPriority[mode -1];
         
         var itemTitle = item.querySelector("#itemTitle");
-        itemTitle.innerHTML = assetReordered[mode -1][0] + " " + itemTitle.innerHTML.substring(itemTitle.innerHTML.indexOf(' ') + 1);
+        itemTitle.innerHTML = asset[priority].icon + " " + itemTitle.innerHTML.substring(itemTitle.innerHTML.indexOf(' ') + 1);
 
         var itemStatus = item.querySelector("#itemStatus")
-        itemStatus.innerHTML = assetReordered[mode -1].substring(assetReordered.indexOf(' ') + 1);
+        itemStatus.innerHTML = asset[priority].icon + " " + asset[priority].status
 
         var itemLicense = item.querySelector("#itemLicense")
         itemLicense.innerHTML = "None";
