@@ -55,6 +55,8 @@ function settingFolders(result) {
 <details> <summary>Details</summary><br>`;
         rtp[item].forEach(function(asset) {
             var currBranch = gitData.branch
+            var assetType = item == "Sound" ? "video controls" : "img";
+            
             var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + asset);
             var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + asset);
             var imgPath = [imgCache];
@@ -72,9 +74,9 @@ function settingFolders(result) {
 </thead>
 <tbody>
 <tr>
-<td><br><br></div><table><tbody><tr><td><img src="` + imgA + `?`+timeStamp+ `">   </td><td id="assetPointer">👉</td>  <td> <img src="` + imgB + `?`+timeStamp+ `" onerror='checkStatus(this,` + JSON.stringify(imgPath) + `)'> </td></tr></tbody></table>  <table>
-
-
+<td><br><br></div><table><tbody><tr><td><` + assetType + ` src="` + imgA + `?`+timeStamp+ `"></` + assetType + `></td>
+<td id="assetPointer">👉</td>
+<td><` + assetType + ` src="` + imgB + `?`+timeStamp+ `" onerror='checkStatus(this,` + JSON.stringify(imgPath) + `)'></` + assetType + `> </td></tr></tbody></table>  <table>
 </table>
 <ul>
 <strong>STATUS</strong>: <x id="itemStatus">🟩 Done </x><br>
@@ -83,10 +85,8 @@ function settingFolders(result) {
 <strong>LICENSE</strong>: <x id="itemLicense">CC0</x><br>
 <strong>SOURCES</strong>: None</li>
 </ul>
-
 </td>
 </tr></tbody></table>
-
 `
         });
         checklist += `</details></section><br>
