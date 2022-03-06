@@ -114,6 +114,7 @@ function getAsset(item) {
 }
 
 function checkStatus(image, arr, mode = 0) {
+   
     image.onload = function(){
         var item = image.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
         var priority = assetPriority[mode -1];
@@ -127,6 +128,8 @@ function checkStatus(image, arr, mode = 0) {
         var itemLicense = item.querySelector("#itemLicense")
         itemLicense.innerHTML = "None";
     }
+ image.oncanplay = image.onload;
+    
     image.onerror = function() {
         if (mode < arr.length) {
             mode++
