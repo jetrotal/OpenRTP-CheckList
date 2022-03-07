@@ -30,7 +30,7 @@ var asset = {
 };
 
 var assetsCounter = {done:0, review:0, wip:0, default:0,error:0};
-var assetsColors = ["#16C60C","#0078D7","#FFF100","#383838","#16C60C" ]
+var assetsColors = ["#16C60C","#0078D7","#FFF100","#383838","#E81224" ]
 
 var assetStatus = [Object.values(asset.done).join(' '),
     Object.values(asset.review).join(' '),
@@ -88,7 +88,7 @@ async function settingFolders(result) {
             var audioA;
             var audioB;
             
-            var priority = assetPriority[2];
+            var priority = "error";
             var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + assetName);
             var imgPath = [imgCache];
             assetPriority.forEach(function(progress) {
@@ -211,4 +211,4 @@ function placeBar(obj) {
 }
 
 start();
-injectCSS();
+//injectCSS();
