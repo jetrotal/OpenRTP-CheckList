@@ -7,39 +7,48 @@ var gitData = {
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
 var asset = {
-    default: {
-        icon: "⬛",
-        status: "Waiting for An Artist"
-    },
-    wip: {
-        icon: "🟨",
-        status: "In Progress"
+    done: {
+        icon: "🟩",
+        status: " Done"
     },
     review: {
         icon: "🟦",
         status: " Under Review"
     },
-    done: {
-        icon: "🟩",
-        status: " Done"
+    wip: {
+        icon: "🟨",
+        status: "Work In Progress"
     },
-    error: {
+    default: {
+        icon: "⬛",
+        status: "Waiting for An Artist"
+    },
+     error: {
         icon: "🟥",
         status: " Something Went Wrong"
     }
 };
 
-var assetStatus = [Object.values(asset.default).join(' '),
-    Object.values(asset.wip).join(' '),
+var assetsCounter = {done:0, review:0, wip:0, default:0,error:0};
+var assetsColors = ["#16C60C","#0078D7","#FFF100","#383838","#16C60C" ]
+
+var assetStatus = [Object.values(asset.done).join(' '),
     Object.values(asset.review).join(' '),
-    Object.values(asset.done).join(' '),
+    Object.values(asset.wip).join(' '),
+    Object.values(asset.default).join(' '),
     Object.values(asset.error).join(' ')
 ];
 
 var assetPriority = ["review", "error", "wip", "default"];
 
 var checklist = `
-<table><thead id="assetPointer"><tr><td>` + assetStatus.join(' &emsp; ') + `</tr></td></thead></table>`;
+<table><thead id="assetPointer"><tr><td>` + assetStatus.join(' &emsp; ') + `</tr></td></thead>
+<div class="container">
+  <div class="progress" style="margin:5px;display: flex;" id="rtpBar">
+  </div> 
+</div>
+</table>
+<div style="margin:auto; width:max-content" id="rtpTotal">0 assets in total</div>`;
 
 async function list_directory(user, repo, directory, branch) {
     const url = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
@@ -92,6 +101,8 @@ async function settingFolders(result) {
                 if (goodURL) priority = assetPriority[i - 1], imgB = imgPath[i];
             };
             if (!priority) priority = "done";
+            assetsCounter[priority]++;
+            placeBar(assetsCounter);
 
             var hideAsset = priority == "default" ? " style='opacity:0.1' " :"";
 
@@ -173,6 +184,31 @@ function togglePlay(icon, url) {
      ( icon.src = "https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/stop-circle.svg"+`?` + timeStamp , MIDIjs.play(url) ) : 
     ( icon.src = "https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/play-circle.svg"+`?` + timeStamp, MIDIjs.stop() );
 };
+
+function updateBar(obj) {
+    return Object.keys(obj).map(v => {
+        let data = Object.values(obj),
+            sum = data.reduce((r, x) => r + x);
+
+        let result = {
+            type: 'column',
+            name: v,
+            total: sum,
+            data: data,
+            percent: data.map(p => (p / sum) * 100)
+        }
+
+        result["html"] = result.percent.map((p, i) => `<div class="progress-bar" role="progressbar" style="text-align:center;color:#fff;background-color:` + assetsColors[i] + `; width:` + p + `%">` + data[i] + `</div>`);
+        return result
+
+    });
+}
+
+function placeBar(obj) {
+    var currRTP = updateBar(obj)[0]
+    document.getElementById("rtpBar").innerHTML = currRTP.html.join("");
+    document.getElementById("rtpTotal").innerHTML = currRTP.total + " assets in total";
+}
 
 start();
 injectCSS();
