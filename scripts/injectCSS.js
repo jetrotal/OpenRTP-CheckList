@@ -35,6 +35,10 @@ cursor:pointer;
     align-content: center;
 }
 
+#main_content {
+    padding-top: 10px;
+}
+
 </style>
 `
 }
