@@ -123,9 +123,9 @@ async function settingFolders(result) {
 </thead>
 <tbody>
 <tr>
-<td><br><br></div><table><tbody><tr><td><img src="` + imgA + `?` + timeStamp + `" `+audioA+`></img></td>
+<td><br><br></div><table><tbody><tr><td><img loading="lazy" src="` + imgA + `?` + timeStamp + `" `+audioA+`></img></td>
 <td id="assetPointer">👉</td>
-<td><x `+hideAsset+`><img src="` + imgB + `?` + timeStamp + `" `+audioB+`></img></x> </td></tr></tbody></table>  <table>
+<td><x `+hideAsset+`><img loading="lazy" src="` + imgB + `?` + timeStamp + `" `+audioB+`></img></x> </td></tr></tbody></table>  <table>
 </table>
 <ul>
 <strong>STATUS</strong>: ` + asset[priority].icon + ` ` + asset[priority].status + `<br>
