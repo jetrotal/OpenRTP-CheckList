@@ -75,6 +75,10 @@ async function settingFolders(result) {
 
             var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + assetName);
             var imgB;
+
+            var audioA;
+            var audioB;
+            
             var priority = assetPriority[2];
             var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + assetName);
             var imgPath = [imgCache];
@@ -88,9 +92,14 @@ async function settingFolders(result) {
                 if (goodURL) priority = assetPriority[i - 1], imgB = imgPath[i];
             };
             if (!priority) priority = "done";
-            console.log(priority, assetName);
 
 
+            (imgA.includes(".mid")||imgA.includes(".midi")) ? (audioA = `style ="cursor:pointer" onClick=" togglePlay(this,'`+imgA+`?` + timeStamp + `');"`, 
+                imgA = "https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/play-circle.svg") : ``;
+            
+            (imgB.includes(".mid")||imgB.includes(".midi")) ? (audioB = `style ="cursor:pointer" onClick=" togglePlay(this,'`+imgB+`?` + timeStamp + `');"`, 
+                imgB = "https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/play-circle.svg") : ``;
+            
 
             // imgB = imgPath[0]
             document.getElementById("sc" + item).querySelector("#shove").innerHTML += //checklist +=
@@ -102,9 +111,9 @@ async function settingFolders(result) {
 </thead>
 <tbody>
 <tr>
-<td><br><br></div><table><tbody><tr><td><img src="` + imgA + `?` + timeStamp + `"></img></td>
+<td><br><br></div><table><tbody><tr><td><img src="` + imgA + `?` + timeStamp + `" `+audioA+`></img></td>
 <td id="assetPointer">👉</td>
-<td><img src="` + imgB + `?` + timeStamp + `"></img> </td></tr></tbody></table>  <table>
+<td><img src="` + imgB + `?` + timeStamp + `" `+audioB+`></img> </td></tr></tbody></table>  <table>
 </table>
 <ul>
 <strong>STATUS</strong>: ` + asset[priority].icon + ` ` + asset[priority].status + `<br>
@@ -158,5 +167,10 @@ async function isUrlFound(url) {
     }
 }
 
+function togglePlay(icon, url) {
+  return icon.src=="https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/play-circle.svg" +`?` + timeStamp ? 
+     ( icon.src = "https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/stop-circle.svg"+`?` + timeStamp , MIDIjs.play(url) ) : 
+    ( icon.src = "https://raw.githubusercontent.com/jetrotal/OpenRTP-CheckList/gh-page/img/play-circle.svg"+`?` + timeStamp, MIDIjs.stop() );
+};
 
 start();
