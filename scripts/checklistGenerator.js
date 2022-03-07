@@ -55,7 +55,7 @@ function settingFolders(result) {
 <details> <summary>Details</summary><br>`;
         rtp[item].forEach(function(asset) {
             var currBranch = gitData.branch
-            var assetType = item == "Sound" ? "video controls" : "img";
+            var assetType = item == "Music" ? "midi-player sound-font" : (item == "Sound" ? "video controls" : "img");
             
             var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + asset);
             var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + asset);
