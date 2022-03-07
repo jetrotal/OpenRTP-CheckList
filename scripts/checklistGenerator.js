@@ -48,7 +48,7 @@ var checklist = `
   </div> 
 </div>
 </table>
-<div style="margin:auto; width:max-content" id="rtpTotal">0 assets in total</div>`;
+<div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`;
 
 async function list_directory(user, repo, directory, branch) {
     const url = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
@@ -207,8 +207,9 @@ function updateBar(obj) {
 function placeBar(obj) {
     var currRTP = updateBar(obj)[0]
     document.getElementById("rtpBar").innerHTML = currRTP.html.join("");
-    document.getElementById("rtpTotal").innerHTML = currRTP.total + " assets in total";
+    document.getElementById("rtpTotal").innerHTML = "OpenRTP project is "+Math.round(currRTP.percent[0])+"% Completed.<br> Loaded "+ currRTP.total + " assets in total.";
 }
 
 start();
+
 injectCSS();
