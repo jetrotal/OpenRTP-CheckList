@@ -211,4 +211,4 @@ function placeBar(obj) {
 }
 
 start();
-//injectCSS();
+injectCSS();
