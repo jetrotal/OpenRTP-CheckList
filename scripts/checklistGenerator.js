@@ -7,18 +7,34 @@ var gitData = {
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
 var asset = {
-    default: {icon:"⬛", status:"Waiting for An Artist"}, 
-    wip: {icon:"🟨", status:"In Progress"}, 
-    review: {icon:"🟦", status:" Under Review"}, 
-    done: {icon:"🟩", status:" Done"}, 
-    error: {icon:"🟥", status:" Something Went Wrong"}
+    default: {
+        icon: "⬛",
+        status: "Waiting for An Artist"
+    },
+    wip: {
+        icon: "🟨",
+        status: "In Progress"
+    },
+    review: {
+        icon: "🟦",
+        status: " Under Review"
+    },
+    done: {
+        icon: "🟩",
+        status: " Done"
+    },
+    error: {
+        icon: "🟥",
+        status: " Something Went Wrong"
+    }
 };
 
-var assetStatus = [Object.values(asset.default).join(' '), 
-                   Object.values(asset.wip).join(' '), 
-                   Object.values(asset.review).join(' '), 
-                   Object.values(asset.done).join(' '), 
-                   Object.values(asset.error).join(' ')];
+var assetStatus = [Object.values(asset.default).join(' '),
+    Object.values(asset.wip).join(' '),
+    Object.values(asset.review).join(' '),
+    Object.values(asset.done).join(' '),
+    Object.values(asset.error).join(' ')
+];
 
 var assetPriority = ["review", "error", "wip", "default"];
 
@@ -43,43 +59,55 @@ async function list_directory(user, repo, directory, branch) {
     }
 }
 
-function settingFolders(result) {
+async function settingFolders(result) {
     console.log("It succeeded with " + result);
     gitData.assetsFolders = result;
     if (rtp == {}) result.forEach(function(item) {
         getAsset(item);
     });
 
-    gitData.assetsFolders.forEach(function(item) {
+    gitData.assetsFolders.forEach(async function(item) {
         checklist += `<section id="sc` + item + `"> <h2>` + item + `</h2> 
-<details> <summary>Details</summary><br>`;
-        rtp[item].forEach(function(asset) {
+<details> <summary>Details</summary><br><div id="shove"></div>`;
+        rtp[item].forEach(async function(assetName) {
             var currBranch = gitData.branch
             var assetType = "img"; //item == "Music" ? "midi-player sound-font" : (item == "Sound" ? "video controls" : "img");
-            
-            var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + asset);
-            var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + asset);
+
+            var imgA = encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + gitData.branch + `/` + gitData.rtpFolder + `/` + item + `/` + assetName);
+            var imgB;
+            var priority = assetPriority[2];
+            var imgCache = encodeURI(`https://raw.githubusercontent.com/EasyRPG/RTP/master/` + item + `/` + assetName);
             var imgPath = [imgCache];
             assetPriority.forEach(function(progress) {
-                imgPath.push(encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + progress + `/` + gitData.rtpFolder + `/` + item + `/` + asset));
+                imgPath.push(encodeURI(`https://raw.githubusercontent.com/` + gitData.user + `/` + gitData.repo + `/` + progress + `/` + gitData.rtpFolder + `/` + item + `/` + assetName));
             });
-            var imgB = imgPath[0]
 
-            checklist +=
+            for (let i = 0; i < imgPath.length; i++) {
+                if (imgB) break;
+                var goodURL = await isUrlFound(imgPath[i]);
+                if (goodURL) priority = assetPriority[i - 1], imgB = imgPath[i];
+            };
+            if (!priority) priority = "done";
+            console.log(priority, assetName);
+
+
+
+            // imgB = imgPath[0]
+            document.getElementById("sc" + item).querySelector("#shove").innerHTML += //checklist +=
                 `<table>
 <thead>
 <tr>
-<th id="itemTitle">🟩 ` + asset + ` </th>
+<th id="itemTitle">` + asset[priority].icon + ` ` + assetName + ` </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><br><br></div><table><tbody><tr><td><` + assetType + ` src="` + imgA + `?`+timeStamp+ `"></` + assetType + `></td>
+<td><br><br></div><table><tbody><tr><td><img src="` + imgA + `?` + timeStamp + `"></img></td>
 <td id="assetPointer">👉</td>
-<td><` + assetType + ` src="` + imgB + `?`+timeStamp+ `" onerror='checkStatus(this,` + JSON.stringify(imgPath) + `)'></` + assetType + `> </td></tr></tbody></table>  <table>
+<td><img src="` + imgB + `?` + timeStamp + `"></img> </td></tr></tbody></table>  <table>
 </table>
 <ul>
-<strong>STATUS</strong>: <x id="itemStatus">🟩 Done </x><br>
+<strong>STATUS</strong>: ` + asset[priority].icon + ` ` + asset[priority].status + `<br>
 <strong>ORIGINALLY FROM</strong>: RPG Maker 2000/2003<br>
 <strong>REPLACEMENT AUTHOR</strong>: No Author<br>
 <strong>LICENSE</strong>: <x id="itemLicense">CC0</x><br>
@@ -87,7 +115,7 @@ function settingFolders(result) {
 </ul>
 </td>
 </tr></tbody></table>
-`
+`;
         });
         checklist += `</details></section><br>
 `
@@ -113,37 +141,22 @@ function getAsset(item) {
     }, failureCallback);
 }
 
-function checkStatus(image, arr, mode = 0) {
-   
-    image.onload = function(){
-        var item = image.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
-        var priority = assetPriority[mode -1];
-        
-        var itemTitle = item.querySelector("#itemTitle");
-        itemTitle.innerHTML = asset[priority].icon + " " + itemTitle.innerHTML.substring(itemTitle.innerHTML.indexOf(' ') + 1);
 
-        var itemStatus = item.querySelector("#itemStatus")
-        itemStatus.innerHTML = asset[priority].icon + " " + asset[priority].status
 
-        var itemLicense = item.querySelector("#itemLicense")
-        itemLicense.innerHTML = "None";
+async function isUrlFound(url) {
+    try {
+        const response = await fetch(url, {
+            method: 'HEAD',
+            cache: 'no-cache'
+        });
+
+        return response.status === 200;
+
+    } catch (error) {
+        // console.log(error);
+        return false;
     }
- image.oncanplay = image.onload;
-    
-    image.onerror = function() {
-        if (mode < arr.length) {
-            mode++
-            checkStatus(image, arr, mode)
-        }
-    }
-    //arr[progressMode]
-    if (mode < arr.length) image.src = arr[mode]+"?"+timeStamp;
-    if (mode == arr.length - 1) image.style.opacity = "0"
-    
-
 }
-
-
 
 
 start();
