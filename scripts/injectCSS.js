@@ -16,6 +16,25 @@ table{
     margin: 0px auto 20px auto;
     text-align: left;
 }
+
+.folderBt{
+background-color:#aeaeae;
+  width:7%;
+  padding:1%; 
+  text-align:center; 
+  font-size:100%;
+  margin:10px;
+cursor:pointer;
+}
+
+#folderGrid {
+  margin:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 </style>
 `
 }
