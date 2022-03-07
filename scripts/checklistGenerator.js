@@ -13,7 +13,7 @@ var asset = {
     },
     wip: {
         icon: "🟨",
-        status: "In Progress"
+        status: "Work In Progress"
     },
     review: {
         icon: "🟦",
