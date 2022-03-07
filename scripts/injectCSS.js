@@ -13,7 +13,7 @@ cursor: pointer
 }
 table{
     border: 1px solid #373737;
-    margin: 0px auto 20px auto;
+    margin: 10px auto;
     text-align: left;
 }
 
