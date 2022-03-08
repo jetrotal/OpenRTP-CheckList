@@ -12,7 +12,7 @@ var data = {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": "russidan (Alephman)",
+            "authors": "russidan (Alephman) CC-BY",
             "sources": "None"
         }
     },
@@ -22,7 +22,7 @@ var data = {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Marina Navarro Travesset",
+            "authors": "Marina Navarro Travesset CC-BY",
             "sources": "https://muerteatartajo.blogspot.com"
         },
         "Object1.png": {
@@ -63,203 +63,203 @@ var data = {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Castle 1.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Church.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Dungeon 1.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Ending 2.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Field1.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Game Over 1.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Item.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JDoubt.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle1.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle2.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle3.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle4.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 1.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 2.mid": {
             "status": "done",
             "year": "(c) 2010 ",
             "from": "RPG Maker 2000/2003",
-            "authors": "Juan Manuel Nigretti",
+            "authors": "Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 3.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 4.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 5.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 6.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JInn 1.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JInn 2.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JJoke 1.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JJoke 2.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JMystery.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Mystery 1.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Opening 2.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Sorrow.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Town 1.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Vehicle 1.mid": {
             "status": "done",
             "year": "(c) 2010",
             "from": "RPG Maker 2000/2003",
-            "authors": " Juan Manuel Nigretti",
+            "authors": " Juan Manuel Nigretti CC-BY",
             "sources": "https://soundcloud.com/goodgameaudio"
         }
     },
