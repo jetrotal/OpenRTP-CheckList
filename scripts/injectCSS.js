@@ -12,6 +12,7 @@ summary{
 cursor: pointer
 }
 table{
+    max-width:1090px;
     border: 1px solid #373737;
     margin: 10px auto;
     text-align: left;
