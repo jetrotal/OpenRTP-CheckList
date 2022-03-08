@@ -25,7 +25,6 @@ var rtp = {
         "Ruins2.png",
         "Sea.png",
         "Ship.png",
-        "Shrine.png",
         "Sky.png",
         "Snow Field.png",
         "Space.png",
