@@ -39,6 +39,9 @@ cursor:pointer;
 #main_content {
     padding-top: 10px;
 }
+img {
+    image-rendering: pixelate;
+}
 
 </style>
 `
