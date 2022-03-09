@@ -120,7 +120,7 @@ async function settingFolders(result) {
 
 
             checklist += 
-`'<section id="' + item + '/' + assetName + '">
+`<section id="` + item + `/` + assetName + `">
  <table>
   <thead>
     <tr>
