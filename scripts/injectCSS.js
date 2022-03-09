@@ -1,6 +1,7 @@
 function injectCSS(){
-document.getElementById("injectCSS").innerHTML = `
-<style>
+document.getElementById("injectCSS") ? "" : 
+document.innerHTML = `
+<style id="injectCSS">
 #assetPointer{
     vertical-align: middle;
 }
