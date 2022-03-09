@@ -42,7 +42,7 @@ cursor:pointer;
     padding-top: 10px;
 }
 img {
-    image-rendering: pixelate;
+    image-rendering: pixelated;
 }
 
 </style>
