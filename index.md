@@ -1,4 +1,5 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js" integrity="sha512-K+cPWcoDCr2JFFfe912LrvRUQbVJuWNfeWK5r/HrmpDs8ELrsjVib8Fs5oAxzu76fG66ajGhDLvvcxBbeEzl9g==" crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
+<link rel="shortcut icon" type="image/x-icon" href="./Images/favIco.png?">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
 <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
 <script src="./data/rtpFiles.js?{{site.time}}"></script>
 <script src="./data/rtpData.js?{{site.time}}"></script>
