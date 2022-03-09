@@ -250,7 +250,9 @@ function updateBar(obj) {
 function placeBar(obj) {
     var currRTP = updateBar(obj)[0]
     document.getElementById("rtpBar").innerHTML = currRTP.html.join("");
-    document.getElementById("rtpTotal").innerHTML = "OpenRTP project is "+Math.round(currRTP.percent[0])+"% Completed.<br> Loaded "+ currRTP.total + " assets in total.";
+var currFolder = urlParams.get('filter').split(",") == gitData.assetsFolders ? gitData.assetsFolders : "OpenRTP" 
+
+    document.getElementById("rtpTotal").innerHTML ="["+ currFolder +"] Collection is "+Math.round(currRTP.percent[0])+"% Completed.<br> "+ currRTP.total + " assets loaded.";
 }
 
 function getData(fn, defaultVal = defaultData) {
