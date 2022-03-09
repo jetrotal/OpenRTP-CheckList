@@ -9,7 +9,7 @@ var gitData = {
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
 
-urlParams.has('filter') ? assetsFolder = urlParams.get('filter').split(",") : "";
+urlParams.has('filter') ? gitData.assetsFolders = urlParams.get('filter').split(",") : "";
 
 var asset = {
     done: {
