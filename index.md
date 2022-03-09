@@ -1,4 +1,4 @@
-<style id="injectCSS">body{opacity:100}</style>
+<div id="injectCSS"></div>
 {% assign wipRepo = "https://cdn.jsdelivr.net/gh/jetrotal/OpenRTP-CheckList@wip" %}
 {% assign defRepo = "https://cdn.jsdelivr.net/gh/jetrotal/OpenRTP-CheckList@gh-page" %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js" integrity="sha512-K+cPWcoDCr2JFFfe912LrvRUQbVJuWNfeWK5r/HrmpDs8ELrsjVib8Fs5oAxzu76fG66ajGhDLvvcxBbeEzl9g==" crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
