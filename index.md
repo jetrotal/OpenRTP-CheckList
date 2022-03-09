@@ -8,4 +8,4 @@
 <script src="{{defRepo}}/scripts/checklistGenerator.js?{{site.time}}" defer crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
 
 
-{% include "https://jetrotal.github.io/OpenRTP-CheckList/scripts/injectCSS.js" %}
+{% include https://jetrotal.github.io/OpenRTP-CheckList/scripts/injectCSS.js %}
