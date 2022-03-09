@@ -1,3 +1,5 @@
+var urlParams = new URLSearchParams( window.location.search );
+
 var timeStamp = Date.now();
 var gitData = {
     user: "jetrotal",
@@ -6,6 +8,9 @@ var gitData = {
     rtpFolder: "2000+2003 RTP",
     assetsFolders: ["Backdrop", "Battle", "BattleCharSet", "BattleWeapon", "CharSet", "ChipSet", "FaceSet", "GameOver", "Monster", "Music", "Panorama", "Sound", "System", "System2", "Title"]
 }
+
+urlParams.has('filter') ? assetsFolder = urlParams.get('filter').split(",");
+
 var asset = {
     done: {
         icon: "🟩",
