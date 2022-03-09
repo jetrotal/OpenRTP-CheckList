@@ -56,6 +56,26 @@ var data = {
             "authors": "MrBeast, Stephen Challener (Redshrike) CC-BY (commissioned by OpenGameArt), Carl Olsson (surt), Ogrebane, Garrett Wessner (Gwes), Dmytro Kushnariov (jikmok) CC0",
             "sources": "(surt, CC0) https://opengameart.org/content/town-tiles, (surt, CC0) https://opengameart.org/content/forest-tiles, (beast, CC-BY) https://opengameart.org/content/worldmapoverworld-tileset, (orgebane, CC0) https://opengameart.org/content/16x16-tiles, (redshrike, CC-BY) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, (beast, CC0) https://opengameart.org/content/m13-cave-tileset, (gwes, CC0) https://opengameart.org/content/nes-cc0-graphics-2"
         }
+     },
+
+    "GameOver": {
+        "Game Over.png": {
+            "status": "done",
+            "year": "(c) 2020 ",
+            "from": "RPG Maker 2000/2003",
+            "authors": "jetrotal [CC0], kou [CC-BY] (koubit_001, Font)",
+            "sources": "https://github.com/jetrotal, https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=265"
+        }
+    },
+
+    "Monster": {
+        "Hornet.png": {
+            "status": "done",
+            "year": "(c) 2018 ",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Orochii Zouveleki CC-BY",
+            "sources": "https://ragnarokrproject.com/"
+        }
     },
 
     "Music": {
