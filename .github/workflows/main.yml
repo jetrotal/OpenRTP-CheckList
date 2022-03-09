@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the gh-page branch
   push:
-    branches: [ gh-page ]
+    branches: [ wip ]
   pull_request:
-    branches: [ gh-page ]
+    branches: [ wip ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,13 +23,14 @@ jobs:
       - name: copy
         env:
           SRC_FOLDER_PATH: 'data'
+          SRC_BRANCH: 'wip'
           TARGET_BRANCH: 'gh-page'
         run: |
           files=$(find $SRC_FOLDER_PATH -type f) # get the file list
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git fetch                         # fetch branches
-          git checkout $TARGET_BRANCH       # checkout to your branch
+          git checkout $SRC_BRANCH       # checkout to your branch
           git checkout ${GITHUB_REF##*/} -- $files # copy files from the source branch
           git add -A
           git diff-index --quiet HEAD ||  git commit -am "deploy files"  # commit to the repository (ignore if no modification)
