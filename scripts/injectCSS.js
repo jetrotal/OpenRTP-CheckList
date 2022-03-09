@@ -1,5 +1,7 @@
 function injectCSS(){
-if (!document.getElementById("injectCSS")) document.body.innerHTML += 
+if (!document.getElementById("injectCSS")) 
+document.head.innerHTML+=`<link rel="shortcut icon" type="image/x-icon" href="./img/favIco.png?">`,
+document.body.innerHTML += 
 `<style id="injectCSS">
 #assetPointer{
     vertical-align: middle;
