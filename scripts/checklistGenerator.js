@@ -129,6 +129,12 @@ async function settingFolders(result) {
             
             (imgB.includes(".mid")||imgB.includes(".midi")) ? (audioB = `style ="cursor:pointer" onClick=" toggleMusic(this,'`+imgB+`?` + timeStamp + `');"`, 
                 imgB = assetsURL.playBT ) : ``;
+
+            (imgA.includes(".wav")||imgA.includes(".mp3")) ? (audioA = `style ="cursor:pointer" onClick=" toggleSFX(this,'`+imgA+`?` + timeStamp + `');"`, 
+                imgA = assetsURL.playBT ) : ``;
+            
+            (imgB.includes(".wav")||imgB.includes(".mp3")) ? (audioB = `style ="cursor:pointer" onClick=" toggleSFX(this,'`+imgB+`?` + timeStamp + `');"`, 
+                imgB = assetsURL.playBT ) : ``;
             
 
             // imgB = imgPath[0]
@@ -159,10 +165,14 @@ async function settingFolders(result) {
         checklist += `</details></section><br>
 `
     });
+
+    
     document.getElementById("main_content").innerHTML = checklist
     placeBar(assetsCounter);
 
 }
+
+
 
 function failureCallback(error) {
     console.log("It failed with " + error);
@@ -201,6 +211,15 @@ async function isUrlFound(url) {
 function toggleMusic(icon, url) { 
   return icon.src== assetsURL.playBT + `?` + timeStamp ? ( icon.src = assetsURL.stopBT + `?` + timeStamp  , MIDIjs.play(url) ) : ( icon.src = assetsURL.playBT + `?` + timeStamp , MIDIjs.stop() );
 };
+
+var sfx = new Pizzicato.Sound();
+function toggleSFX(icon,url) {
+    sfx = new Pizzicato.Sound(url, function() {
+    return icon.src== assetsURL.playBT + `?` + timeStamp ? ( icon.src = assetsURL.stopBT + `?` + timeStamp  , sfx.play() ) : ( icon.src = assetsURL.playBT + `?` + timeStamp , sfx.stop() );
+});
+    
+    
+} 
 
 function updateBar(obj) {
     return Object.keys(obj).map(v => {
