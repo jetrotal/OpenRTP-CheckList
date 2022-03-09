@@ -428,21 +428,21 @@ var data = {
     },
 
     "System2": {
-        "System2a.png": {
+        "System2A.png": {
             "status": "done",
             "year": "(c) 2011",
             "from": "RPG Maker 2000/2003",
             "authors": " andwhyisit CC-BY, OGA-BY",
             "sources": "None"
         },
-        "System2b.png": {
+        "System2B.png": {
             "status": "done",
             "year": "(c) 2011",
             "from": "RPG Maker 2000/2003",
             "authors": " andwhyisit CC-BY, OGA-BY",
             "sources": "None"
         },
-        "System2c.png": {
+        "System2C.png": {
             "status": "done",
             "year": "(c) 2011",
             "from": "RPG Maker 2000/2003",
