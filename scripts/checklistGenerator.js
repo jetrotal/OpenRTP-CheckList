@@ -250,9 +250,9 @@ function updateBar(obj) {
 function placeBar(obj) {
     var currRTP = updateBar(obj)[0]
     document.getElementById("rtpBar").innerHTML = currRTP.html.join("");
-var currFolder = urlParams.get('filter').split(",") == gitData.assetsFolders ? gitData.assetsFolders : "OpenRTP" 
+var currFolder = urlParams.get('filter') == gitData.assetsFolders ? "[ "+ gitData.assetsFolders.join(" + ")+" ]" : "OpenRTP" 
 
-    document.getElementById("rtpTotal").innerHTML ="["+ currFolder +"] Collection is "+Math.round(currRTP.percent[0])+"% Completed.<br> "+ currRTP.total + " assets loaded.";
+    document.getElementById("rtpTotal").innerHTML = currFolder +" Collection is "+Math.round(currRTP.percent[0])+"% Completed.<br> "+ currRTP.total + " assets loaded.";
 }
 
 function getData(fn, defaultVal = defaultData) {
