@@ -4,5 +4,5 @@
 <script type='text/javascript' src='//www.midijs.net/lib/midi.js' crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
 <script src="{{wipRepo}}/scripts/rtpFiles.js?{{site.time}}" crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
 <script src="{{wipRepo}}/scripts/rtpData.js?{{site.time}}" crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
-<script src="{{defRepo}}/scripts/injectCSS.js?{{site.time}}" crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
+<script src="./scripts/injectCSS.js?{{site.time}}" crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
 <script src="{{defRepo}}/scripts/checklistGenerator.js?{{site.time}}" defer crossorigin="anonymous" referrerpolicy="no-referrer" type="application/javascript"></script>
