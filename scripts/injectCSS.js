@@ -1,5 +1,5 @@
 function injectCSS(){
-document.getElementById("injectCSS") ? "" : 
+document.getElementById("injectCSS") ? "" :
 document.innerHTML += `
 <style id="injectCSS">
 #assetPointer{
