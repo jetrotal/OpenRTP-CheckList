@@ -91,7 +91,7 @@ async function settingFolders(result) {
     });
 
     gitData.assetsFolders.forEach(async function(item) {
-        checklist += `<section id="sc` + item + `"> <h2>` + item + `</h2> 
+        checklist += `<section id="` + item + `"> <h2>` + item + `</h2> 
 <details> <summary>Details</summary><br><div id="shove"></div>`;
         rtp[item].forEach(async function(assetName) {
             var currBranch = gitData.branch
