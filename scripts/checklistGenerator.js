@@ -39,8 +39,10 @@ assetsURL = {
 assetsURL.review = assetsURL.wip;
 assetsURL.error = assetsURL.wip;
 
-assetsURL.playBT = document.baseURI + "/img/play-circle.svg";
-assetsURL.stopBT = document.baseURI + "/img/stop-circle.svg";
+var baseURL = location.href.split(location.search||location.hash||/[?#]/)[0]
+
+assetsURL.playBT = baseURL + "/img/play-circle.svg";
+assetsURL.stopBT = baseURL + "/img/stop-circle.svg";
 
 var assetsColors = ["#16C60C","#0078D7","#FFF100","#383838","#E81224" ]
 
