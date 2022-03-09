@@ -162,6 +162,12 @@ async function settingFolders(result) {
     });
     document.getElementById("main_content").innerHTML = checklist;
     placeBar(assetsCounter);
+
+    if (location.hash) {
+        var a = location.hash;
+        location.hash = "";
+        location.hash = a;
+    }
 }
 
 function failureCallback(error) {
