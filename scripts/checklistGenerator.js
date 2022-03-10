@@ -1,5 +1,6 @@
 var urlParams = new URLSearchParams(window.location.search),
     timeStamp = Date.now(),
+    displayMode,
     gitData = {
         user: "jetrotal",
         repo: "OpenRTP-CheckList",
@@ -9,6 +10,7 @@ var urlParams = new URLSearchParams(window.location.search),
     };
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
+urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
 
 var asset = {
         done: {
@@ -88,9 +90,22 @@ async function settingFolders(result) {
     rtp == {} && result.forEach(function(item) {
         getAsset(item);
     });
+
+        checklist += "<section id='checklist'>";
+        checklist+=`<h1>Authors</h1>
+<p dir="auto">The following EasyRPG RTP materials are licensed under a
+Creative Commons Attribution 4.0 International license.</p>
+<p dir="auto">License URL: <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">https://creativecommons.org/licenses/by/4.0/</a></p>
+<br>`
+    
     gitData.assetsFolders.forEach(async function(item) {
-        checklist += '<section id="' + item + '"> <h2>' + item + '</h2> \n<details> <summary>Details</summary><br><div id="shove"></div>';
-       
+
+        
+        var tempHTML = "";
+        var currCounter = 0;
+        
+        tempHTML += '<section id="' + item + '"> <h2>' + item + '</h2> \n<details> <summary>Details</summary><br>';
+        
         rtp[item].forEach(async function(assetName) {
             var assetData = getData(() => data[item][assetName], defaultData);
             assetData && assetData != defaultData || (assetData = defaultData);
@@ -110,6 +125,8 @@ async function settingFolders(result) {
             
             priority || "done";
             assetsCounter[priority]++;
+            if(displayMode == "authors" && priority !="done") return;
+            currCounter ++;
             
             var faded = "default" == priority ? " style='opacity:0.1' " : "";
             
@@ -119,17 +136,17 @@ async function settingFolders(result) {
             imgB.includes(".wav") || imgB.includes(".mp3") ? (audioB = 'style ="cursor:pointer" onClick=" toggleSFX(this,\'' + imgB + "?" + timeStamp + "');\"", imgB = assetsURL.playBT) : "";
 
 
-            checklist += 
+            tempHTML += 
 `<section id="` + item + `/` + assetName + `">
  <table>
   <thead>
     <tr>
-      <th id="itemTitle">` + asset[priority].icon + " " + assetName + ` </th>
+      <th id="itemTitle">` + ( displayMode != "authors" ? asset[priority].icon + " " : "" )  + assetName + ` </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><br><br></div>
+      <td><br> ` + (displayMode != "authors" ? ` <br></div>
         <table>
           <tbody>
             <tr>
@@ -142,10 +159,9 @@ async function settingFolders(result) {
           </tbody>
         </table>
         <table>
-        </table>
-        <ul>
-          <strong>STATUS</strong>: ` + asset[priority].icon + " " + asset[priority].status +
-                `<br>
+        </table>` : "") + `
+        <ul> ` + (displayMode != "authors" ?`
+          <strong>STATUS</strong>: ` + asset[priority].icon + " " + asset[priority].status +`<br> ` : "") + `
           <strong>ORIGINALLY FROM</strong>: ` + assetData.from + `<br>
           <strong>REPLACEMENT AUTHORS/LICENSE</strong>: ` + assetData.authors + `<br>
           <strong>REPLACEMENT YEAR</strong>: ` + assetData.year + `<br>
@@ -158,8 +174,11 @@ async function settingFolders(result) {
 </section>`;
 
         });
-        checklist += "</details></section><br>\n";
+        tempHTML += "</details></section><br>\n";
+        if (currCounter> 0)checklist += tempHTML;
+        
     });
+    checklist += "</section>";
     document.getElementById("main_content").innerHTML = checklist;
     placeBar(assetsCounter);
 
