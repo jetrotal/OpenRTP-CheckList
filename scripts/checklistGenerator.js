@@ -92,7 +92,7 @@ async function settingFolders(result) {
     });
 
         checklist += "<section id='checklist'>";
-        checklist+=`<h1>Authors</h1>
+        if(displayMode == "authors") checklist+=`<h1>Authors</h1>
 <p dir="auto">The following EasyRPG RTP materials are licensed under a
 Creative Commons Attribution 4.0 International license.</p>
 <p dir="auto">License URL: <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">https://creativecommons.org/licenses/by/4.0/</a></p>
