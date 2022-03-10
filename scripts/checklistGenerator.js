@@ -161,11 +161,11 @@ Creative Commons Attribution 4.0 International license.</p>
         <table>
         </table>` : "") + `
         <ul> ` + (displayMode != "authors" ?`
-          <strong>STATUS</strong>: ` + asset[priority].icon + " " + asset[priority].status +`<br> ` : "") + `
-          <strong>ORIGINALLY FROM</strong>: ` + assetData.from + `<br>
-          <strong>REPLACEMENT AUTHORS/LICENSE</strong>: ` + assetData.authors + `<br>
-          <strong>REPLACEMENT YEAR</strong>: ` + assetData.year + `<br>
-          <strong>SOURCES</strong>: ` + assetData.sources + `</li>
+          <strong>STATUS:</strong> ` + asset[priority].icon + " " + asset[priority].status +`<br> ` : "") + `
+          <strong>ORIGINALLY FROM:</strong> ` + assetData.from + `<br>
+          <strong>REPLACEMENT AUTHORS/LICENSE:</strong> ` + assetData.authors + `<br>
+          <strong>REPLACEMENT YEAR:</strong> ` + assetData.year + `<br>
+          <strong>SOURCES:</strong> ` + assetData.sources + `</li>
         </ul>
       </td>
     </tr>
