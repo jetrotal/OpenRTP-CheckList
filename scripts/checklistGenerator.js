@@ -5,7 +5,7 @@ var urlParams = new URLSearchParams(window.location.search),
         user: "jetrotal",
         repo: "OpenRTP-CheckList",
         branch: "default",
-        rtpFolder: "2000+2003 RTP",
+        rtpFolder: "RTP",
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
@@ -56,7 +56,7 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
     assetPriority = ["review", "error", "wip", "default"],
 
     checklist =
-`<table>
+    `<table>
   <thead id="assetPointer">
     <tr>
       <td>` + assetStatus.join(" &emsp; ") + `
@@ -73,7 +73,7 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
 async function list_directory(user, repo, directory, branch) {
     user = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
     directory = directory.split("/").filter(Boolean);
-    if (directory = await directory.reduce(async (acc, dir) => {
+    if (directory = await directory.reduce(async(acc, dir) => {
             ({
                 url: acc
             } = await acc);
@@ -91,57 +91,57 @@ async function settingFolders(result) {
         getAsset(item);
     });
 
-        checklist += "<section id='checklist'>";
-        if(displayMode == "authors") checklist+=`<h1>Authors</h1>
+    checklist += "<section id='checklist'>";
+    if (displayMode == "authors") checklist += `<h1>Authors</h1>
 <p dir="auto">The following EasyRPG RTP materials are licensed under a
 Creative Commons Attribution 4.0 International license.</p>
 <p dir="auto">License URL: <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">https://creativecommons.org/licenses/by/4.0/</a></p>
 <br>`
-    
+
     gitData.assetsFolders.forEach(async function(item) {
 
-        
+
         var tempHTML = "";
         var currCounter = 0;
-        
+
         tempHTML += '<section id="' + item + '"> <h2>' + item + '</h2> \n<details> <summary>Details</summary><br>';
-        
+
         rtp[item].forEach(async function(assetName) {
             var assetData = getData(() => data[item][assetName], defaultData);
             assetData && assetData != defaultData || (assetData = defaultData);
-            
+
             var imgA = encodeURI(assetsURL[gitData.branch] + item + "/" + assetName),
                 imgB = encodeURI(assetsURL[assetData.status] + item + "/" + assetName),
                 audioA, audioB, priority = assetData.status,
                 imgPath = [encodeURI(assetsURL.done + item + "/" + assetName)];
-            
+
             assetPriority.forEach(function(progress) {
                 imgPath.push(encodeURI(assetsURL[progress] + item + "/" + assetName));
             });
-            
+
             for (var i = 0; i < imgPath.length && !imgB; i++) {
                 await isUrlFound(imgPath[i]) && (priority = assetPriority[i - 1], imgB = imgPath[i]);
             }
-            
+
             priority || "done";
             assetsCounter[priority]++;
-            if(displayMode == "authors" && priority !="done") return;
-            currCounter ++;
-            
+            if (displayMode == "authors" && priority != "done") return;
+            currCounter++;
+
             var faded = "default" == priority ? " style='opacity:0.1' " : "";
-            
+
             imgA.includes(".mid") || imgA.includes(".midi") ? (audioA = 'style ="cursor:pointer" onClick=" toggleMusic(this,\'' + imgA + "?" + timeStamp + "');\"", imgA = assetsURL.playBT) : "";
             imgB.includes(".mid") || imgB.includes(".midi") ? (audioB = 'style ="cursor:pointer" onClick=" toggleMusic(this,\'' + imgB + "?" + timeStamp + "');\"", imgB = assetsURL.playBT) : "";
             imgA.includes(".wav") || imgA.includes(".mp3") ? (audioA = 'style ="cursor:pointer" onClick=" toggleSFX(this,\'' + imgA + "?" + timeStamp + "');\"", imgA = assetsURL.playBT) : "";
             imgB.includes(".wav") || imgB.includes(".mp3") ? (audioB = 'style ="cursor:pointer" onClick=" toggleSFX(this,\'' + imgB + "?" + timeStamp + "');\"", imgB = assetsURL.playBT) : "";
 
 
-            tempHTML += 
-`<section id="` + item + `/` + assetName + `">
+            tempHTML +=
+                `<section id="` + item + `/` + assetName + `">
  <table>
   <thead>
     <tr>
-      <th id="itemTitle">` + ( displayMode != "authors" ? asset[priority].icon + " " : "" )  + assetName + ` </th>
+      <th id="itemTitle">` + (displayMode != "authors" ? asset[priority].icon + " " : "") + assetName + ` </th>
     </tr>
   </thead>
   <tbody>
@@ -160,8 +160,8 @@ Creative Commons Attribution 4.0 International license.</p>
         </table>
         <table>
         </table>` : "") + `
-        <ul> ` + (displayMode != "authors" ?`
-          <strong>STATUS:</strong> ` + asset[priority].icon + " " + asset[priority].status +`<br> ` : "") + `
+        <ul> ` + (displayMode != "authors" ? `
+          <strong>STATUS:</strong> ` + asset[priority].icon + " " + asset[priority].status + `<br> ` : "") + `
           <strong>ORIGINALLY FROM:</strong> ` + assetData.from + `<br>
           <strong>REPLACEMENT AUTHORS/LICENSE:</strong> ` + assetData.authors + `<br>
           <strong>REPLACEMENT YEAR:</strong> ` + assetData.year + `<br>
@@ -175,8 +175,8 @@ Creative Commons Attribution 4.0 International license.</p>
 
         });
         tempHTML += "</details></section><br>\n";
-        if (currCounter> 0)checklist += tempHTML;
-        
+        if (currCounter > 0) checklist += tempHTML;
+
     });
     checklist += "</section>";
     document.getElementById("main_content").innerHTML = checklist;
@@ -194,7 +194,7 @@ function failureCallback(error) {
 }
 
 function start() {
-injectCSS();
+    injectCSS();
     if (rtp) {
         settingFolders(gitData.assetsFolders);
     } else {
