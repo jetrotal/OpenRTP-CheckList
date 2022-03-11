@@ -213,8 +213,8 @@ function failureCallback(error) {
 
 function start() {
     injectCSS();
-         loadJSON(rtpJSON.src.files, function(response) { rtpJSON.files = JSON.parse(response) });
- loadJSON(rtpJSON.src.data, function(response) { rtpJSON.data = JSON.parse(response),settingFolders(gitData.assetsFolders) });
+    loadJSON(rtpJSON.src.files, function(response) { rtpJSON.files = JSON.parse(response) });
+    loadJSON(rtpJSON.src.data, function(response) { rtpJSON.data = JSON.parse(response); settingFolders(gitData.assetsFolders) });
     
         
         //return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
