@@ -9,9 +9,9 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
-//var rtpJSON = {src:{}};
-//rtpJSON.src.files = document.getElementById('rtpFiles').src;
-//rtpJSON.src.data = document.getElementById('rtpData').src;
+var rtpJSON = {src:{}};
+rtpJSON.src.files = document.getElementById('rtpFiles').src;
+rtpJSON.src.data = document.getElementById('rtpData').src;
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
