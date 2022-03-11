@@ -9,6 +9,11 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
+rtpdeita = {
+    files: JSON.parse(document.getElementById('rtpFiles').textContent),
+    data: JSON.parse(document.getElementById('rtpData').textContent)
+}
+
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
 
