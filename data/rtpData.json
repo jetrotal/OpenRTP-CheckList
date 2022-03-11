@@ -47,6 +47,15 @@
             "sources": "(surt, CC0) https://opengameart.org/content/town-tiles, (surt, CC0) https://opengameart.org/content/forest-tiles, (beast, CC-BY) https://opengameart.org/content/worldmapoverworld-tileset, (orgebane, CC0) https://opengameart.org/content/16x16-tiles, (redshrike, CC-BY) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, (beast, CC0) https://opengameart.org/content/m13-cave-tileset, (gwes, CC0) https://opengameart.org/content/nes-cc0-graphics-2"
         }
     },
+    "FaceSet": {
+        "Actor1.png": {
+            "status": "wip",
+            "year": "2020 ",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal CC0",
+            "sources": "https://github.com/jetrotal/"
+        }
+    },
     "GameOver": {
         "Game Over.png": {
             "status": "done",
