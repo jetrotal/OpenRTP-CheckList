@@ -10,9 +10,9 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
-var rtpJSON = {src:{}};
-rtpJSON.src.files = baseURL+"data/rtpFiles.json"
-rtpJSON.src.data = baseURL+"data/rtpData.json"
+var rtpJSON = { src:{} };
+rtpJSON.src.files = baseURL + "data/rtpFiles.json?" + timestamp;
+rtpJSON.src.data = baseURL + "data/rtpData.json?" + timestamp;
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
