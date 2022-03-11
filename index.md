@@ -1,4 +1,3 @@
-</body>
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
 <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
