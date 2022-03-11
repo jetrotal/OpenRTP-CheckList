@@ -74,6 +74,18 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
 </table>
 <div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`;
 
+function start() {
+    injectCSS();
+    loadJSON(rtpJSON.src.files, 
+             function(response) { rtpJSON.files = JSON.parse(response);        
+                                 loadJSON(rtpJSON.src.data, 
+                                          function(response) { rtpJSON.data = JSON.parse(response); 
+                                                              settingFolders(gitData.assetsFolders) 
+                                                             });                  
+                                });
+
+}
+
 async function loadJSON(src, callback) {
 
     var xobj = new XMLHttpRequest();
@@ -91,20 +103,6 @@ async function loadJSON(src, callback) {
 
 }
 
-async function list_directory(user, repo, directory, branch) {
-    user = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
-    directory = directory.split("/").filter(Boolean);
-    if (directory = await directory.reduce(async(acc, dir) => {
-            ({
-                url: acc
-            } = await acc);
-            return (await fetch(acc).then(res => res.json())).tree.find(node => node.path === dir);
-        }, {
-            url: user
-        })) {
-        return (await fetch(directory.url).then(res => res.json())).tree.map(node => node.path);
-    }
-}
 async function settingFolders(result) {
     console.log("It succeeded with " + result);
     gitData.assetsFolders = result;
@@ -137,9 +135,6 @@ Creative Commons Attribution 4.0 International license.</p>
                 imgPath.push(encodeURI(assetsURL[progress] + item + "/" + assetName));
             });
 
-            for (var i = 0; i < imgPath.length && !imgB; i++) {
-                await isUrlFound(imgPath[i]) && (priority = assetPriority[i - 1], imgB = imgPath[i]);
-            }
 
             priority || "done";
             assetsCounter[priority]++;
@@ -207,35 +202,11 @@ Creative Commons Attribution 4.0 International license.</p>
     }
 }
 
-function failureCallback(error) {
-    console.log("It failed with " + error);
-}
-
-function start() {
-    injectCSS();
-    loadJSON(rtpJSON.src.files, function(response) { rtpJSON.files = JSON.parse(response);
-                                                   loadJSON(rtpJSON.src.data, function(response) { rtpJSON.data = JSON.parse(response); settingFolders(gitData.assetsFolders) });
-                                                   });
-    
-    
-        
-        //return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
-
-}
-
-function getAsset(item) {
-    list_directory(gitData.user, gitData.repo, gitData.rtpFolder + "/" + item).then(function(result) {
-        rtpJSON.files[item] = result;
-    }, failureCallback);
-}
-async function isUrlFound(url) {
+function getData(fn, defaultVal = rtpJSON.data["default"]) {
     try {
-        return 200 === (await fetch(url, {
-            method: "HEAD",
-            cache: "no-cache"
-        })).status;
-    } catch (error) {
-        return !1;
+        return fn();
+    } catch (e) {
+        return defaultVal;
     }
 }
 
@@ -272,14 +243,6 @@ function placeBar(obj) {
     document.getElementById("rtpBar").innerHTML = obj.html.join("");
     var currFolder = urlParams.get("filter") == gitData.assetsFolders ? "[ " + gitData.assetsFolders.join(" + ") + " ]" : "OpenRTP";
     document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed.<br> " + obj.total + " assets loaded.";
-}
-
-function getData(fn, defaultVal = rtpJSON.data["default"]) {
-    try {
-        return fn();
-    } catch (e) {
-        return defaultVal;
-    }
 }
 
 start();
