@@ -1,4 +1,5 @@
 var urlParams = new URLSearchParams(window.location.search),
+    baseURL = location.href.split(location.search || location.hash || /[?#]/)[0],
     timeStamp = Date.now(),
     displayMode,
     gitData = {
@@ -10,8 +11,8 @@ var urlParams = new URLSearchParams(window.location.search),
     };
 
 var rtpJSON = {src:{}};
-rtpJSON.src.files = document.getElementById('rtpFiles').src;
-rtpJSON.src.data = document.getElementById('rtpData').src;
+rtpJSON.src.files = baseURL+"data/rtpFiles.json"
+rtpJSON.src.data = baseURL+"data/rtpData.json"
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
@@ -48,8 +49,6 @@ assetsURL = {
 
 assetsURL.review = assetsURL.wip;
 assetsURL.error = assetsURL.wip;
-
-var baseURL = location.href.split(location.search || location.hash || /[?#]/)[0];
 
 assetsURL.playBT = baseURL + "/img/play-circle.svg";
 assetsURL.stopBT = baseURL + "/img/stop-circle.svg";
