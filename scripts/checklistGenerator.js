@@ -106,10 +106,7 @@ async function list_directory(user, repo, directory, branch) {
 async function settingFolders(result) {
     console.log("It succeeded with " + result);
     gitData.assetsFolders = result;
-    rtp == {} && result.forEach(function(item) {
-        getAsset(item);
-    });
-
+   
     checklist += "<section id='checklist'>";
     if (displayMode == "authors") checklist += `<h1>Authors</h1>
 <p dir="auto">The following EasyRPG RTP materials are licensed under a
@@ -214,13 +211,11 @@ function failureCallback(error) {
 
 function start() {
     injectCSS();
-    if (rtp) {
-        loadJSON(document.getElementById('rtpFiles').src, function(response) { console.log("wo"), rtpJSON.files = JSON.parse(response) });
+        loadJSON(document.getElementById('rtpFiles').src, function(response) { rtpJSON.files = JSON.parse(response) });
 loadJSON(document.getElementById('rtpData').src, function(response) { rtpJSON.data = JSON.parse(response), settingFolders(gitData.assetsFolders) });
         
-    } else {
-        return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
-    }
+        //return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
+
 }
 
 function getAsset(item) {
