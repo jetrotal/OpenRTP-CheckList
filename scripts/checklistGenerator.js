@@ -11,8 +11,8 @@ var urlParams = new URLSearchParams(window.location.search),
     };
 
 var rtpJSON = { src:{} };
-rtpJSON.src.files = baseURL + "data/rtpFiles.json?" + timestamp;
-rtpJSON.src.data = baseURL + "data/rtpData.json?" + timestamp;
+rtpJSON.src.files = baseURL + "data/rtpFiles.json?" + timeStamp;
+rtpJSON.src.data = baseURL + "data/rtpData.json?" + timeStamp;
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
