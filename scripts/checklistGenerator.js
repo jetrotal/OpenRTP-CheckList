@@ -9,10 +9,7 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
-var RTPdata = {
-    files: JSON.parse(document.getElementById('rtpFiles').textContent),
-    data: JSON.parse(document.getElementById('rtpData').textContent)
-};
+var rtpJSON = {};
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
@@ -75,6 +72,23 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
 </table>
 <div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`;
 
+async function loadJSON(src, callback) {
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', src, true);
+    xobj.onreadystatechange = function() {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+
+            // .open will NOT return a value but simply returns undefined in async mode so use a callback
+            callback(xobj.responseText);
+
+        }
+    }
+    xobj.send(null);
+
+}
+
 async function list_directory(user, repo, directory, branch) {
     user = `https://api.github.com/repos/${user}/${repo}/git/trees/${branch}`;
     directory = directory.split("/").filter(Boolean);
@@ -111,9 +125,9 @@ Creative Commons Attribution 4.0 International license.</p>
 
         tempHTML += '<section id="' + item + '"> <h2>' + item + '</h2> \n<details> <summary>Details</summary><br>';
 
-        rtp[item].forEach(async function(assetName) {
-            var assetData = getData(() => data[item][assetName], defaultData);
-            assetData && assetData != defaultData || (assetData = defaultData);
+        rtpJSON.files[item].forEach(async function(assetName) {
+            var assetData = getData(() => rtpJSON.data[item][assetName], rtpJSON.data["default"]);
+            assetData && assetData != rtpJSON.data["default"] || (assetData = rtpJSON.data["default"]);
 
             var imgA = encodeURI(assetsURL[gitData.branch] + item + "/" + assetName),
                 imgB = encodeURI(assetsURL[assetData.status] + item + "/" + assetName),
@@ -201,7 +215,9 @@ function failureCallback(error) {
 function start() {
     injectCSS();
     if (rtp) {
-        settingFolders(gitData.assetsFolders);
+        loadJSON(document.getElementById('rtpFiles').src, function(response) { console.log("wo"), rtpJSON.files = JSON.parse(response) });
+loadJSON(document.getElementById('rtpData').src, function(response) { rtpJSON.data = JSON.parse(response), settingFolders(gitData.assetsFolders) });
+        
     } else {
         return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
     }
@@ -209,7 +225,7 @@ function start() {
 
 function getAsset(item) {
     list_directory(gitData.user, gitData.repo, gitData.rtpFolder + "/" + item).then(function(result) {
-        rtp[item] = result;
+        rtpJSON.files[item] = result;
     }, failureCallback);
 }
 async function isUrlFound(url) {
@@ -258,7 +274,7 @@ function placeBar(obj) {
     document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed.<br> " + obj.total + " assets loaded.";
 }
 
-function getData(fn, defaultVal = defaultData) {
+function getData(fn, defaultVal = rtpJSON.data["default"]) {
     try {
         return fn();
     } catch (e) {
