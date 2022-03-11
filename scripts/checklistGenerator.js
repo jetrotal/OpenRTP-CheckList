@@ -9,7 +9,9 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
-var rtpJSON = {};
+var rtpJSON = {src:{}};
+rtpJSON.src.files = document.getElementById('rtpFiles').src;
+rtpJSON.src.data = document.getElementById('rtpData').src;
 
 urlParams.has("filter") ? gitData.assetsFolders = urlParams.get("filter").split(",") : "";
 urlParams.has("mode") ? displayMode = urlParams.get("mode") : "";
@@ -211,8 +213,8 @@ function failureCallback(error) {
 
 function start() {
     injectCSS();
-        loadJSON(document.getElementById('rtpFiles').src, function(response) { rtpJSON.files = JSON.parse(response) });
-loadJSON(document.getElementById('rtpData').src, function(response) { rtpJSON.data = JSON.parse(response), settingFolders(gitData.assetsFolders) });
+        loadJSON(rtpJSON.src.files, function(response) { rtpJSON.files = JSON.parse(response) });
+loadJSON(rtpJSON.src.data, function(response) { rtpJSON.data = JSON.parse(response); });
         
         //return rtp = {}, list_directory(gitData.user, gitData.repo, gitData.rtpFolder).then(settingFolders, failureCallback);
 
