@@ -5,7 +5,7 @@ Creative Commons Attribution 4.0 International license.
     
 License URL: https://creativecommons.org/licenses/by/4.0/
  Type|Asset Name|Year|Authors and License|Authors' URL
-:---:|:---:|:---:|:---:|:---:
+:-:|:-:|:-:|:-:|:-:
 ⠀ | ⠀ | ⠀ | ⠀ | ⠀
 `BattleWeapon`|Weapon.png|2010|russidan (Alephman) [CC-BY]|None
 ⠀ | ⠀ | ⠀ | ⠀ | ⠀
@@ -14,8 +14,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 `CharSet`|Object2.png|2010|Verdant_Jack [CC0]|https://community.easyrpg.org/t/test-for-new-rtp/1067/8
 ⠀ | ⠀ | ⠀ | ⠀ | ⠀
 `ChipSet`|Dungeon.png|2018|Dmytro Kushnariov [CC0]|https://easyrpg.org
-`ChipSet`|Exterior.png|2017|MrBeast, <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt), <br/>Ogrebane, <br/>Garrett Wessner (Gwes), <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0]|(surt - [CC0]) https://opengameart.org/content/town-tiles, <br/>(surt - [CC0]) https://opengameart.org/content/forest-tiles, <br/>(beast - [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, <br/>(orgebane - [CC0]) https://opengameart.org/content/16x16-tiles, <br/>(redshrike - [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>(beast - [CC0]) https://opengameart.org/content/m13-cave-tileset, <br/>(marianognu - [WTFPL]) https://community.easyrpg.org/t/basis-png-by-marianognu/121
-`ChipSet`|World.png|2014|MrBeast, <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt), <br/>Ogrebane, <br/>Garrett Wessner (Gwes), <br/>Dmytro Kushnariov (jikmok) [CC0]|(surt - [CC0]) https://opengameart.org/content/town-tiles, <br/>(surt - [CC0]) https://opengameart.org/content/forest-tiles, <br/>(beast - [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, <br/>(orgebane - [CC0]) https://opengameart.org/content/16x16-tiles, <br/>(redshrike - [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>(beast - [CC0]) https://opengameart.org/content/m13-cave-tileset, <br/>(gwes - [CC0]) https://opengameart.org/content/nes-[CC0]-graphics-2
+`ChipSet`|Exterior.png|2017|MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0], <br/>marianognu [WTFPL]|surt: https://opengameart.org/content/town-tiles, <br/>surt: https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>marianognu: https://community.easyrpg.org/t/basis-png-by-marianognu/121
+`ChipSet`|World.png|2014|MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0]|surt https://opengameart.org/content/town-tiles, <br/>surt https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>gwes: https://opengameart.org/content/nes-[CC0]-graphics-2
 ⠀ | ⠀ | ⠀ | ⠀ | ⠀
 ⠀ | ⠀ | ⠀ | ⠀ | ⠀
 `GameOver`|Game Over.png|2020|jetrotal [CC0], <br/>kou [CC-BY] (koubit_001, <br/>Font)|https://github.com/jetrotal, <br/>https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=265
