@@ -43,15 +43,15 @@
             "status": "done",
             "year": "2017",
             "from": "RPG Maker 2000/2003",
-            "authors": "MrBeast, <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt), <br/>Ogrebane, <br/>Garrett Wessner (Gwes), <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0]",
-            "sources": "(surt - [CC0]) https://opengameart.org/content/town-tiles, <br/>(surt - [CC0]) https://opengameart.org/content/forest-tiles, <br/>(beast - [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, <br/>(orgebane - [CC0]) https://opengameart.org/content/16x16-tiles, <br/>(redshrike - [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>(beast - [CC0]) https://opengameart.org/content/m13-cave-tileset, <br/>(marianognu - [WTFPL]) https://community.easyrpg.org/t/basis-png-by-marianognu/121"
+            "authors": "MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0], <br/>marianognu [WTFPL]",
+            "sources": "surt: https://opengameart.org/content/town-tiles, <br/>surt: https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>marianognu: https://community.easyrpg.org/t/basis-png-by-marianognu/121"
         },
         "World.png": {
             "status": "done",
             "year": "2014",
             "from": "RPG Maker 2000/2003",
-            "authors": "MrBeast, <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt), <br/>Ogrebane, <br/>Garrett Wessner (Gwes), <br/>Dmytro Kushnariov (jikmok) [CC0]",
-            "sources": "(surt - [CC0]) https://opengameart.org/content/town-tiles, <br/>(surt - [CC0]) https://opengameart.org/content/forest-tiles, <br/>(beast - [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, <br/>(orgebane - [CC0]) https://opengameart.org/content/16x16-tiles, <br/>(redshrike - [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>(beast - [CC0]) https://opengameart.org/content/m13-cave-tileset, <br/>(gwes - [CC0]) https://opengameart.org/content/nes-[CC0]-graphics-2"
+            "authors": "MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0]",
+            "sources": "surt https://opengameart.org/content/town-tiles, <br/>surt https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>gwes: https://opengameart.org/content/nes-[CC0]-graphics-2"
         }
     },
     "FaceSet": {
