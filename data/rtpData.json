@@ -20,7 +20,7 @@
             "status": "done",
             "year": "2017",
             "from": "RPG Maker 2000/2003",
-            "authors": "Tom Lemmens, Blarumyrran [CC0] (original chest)",
+            "authors": "Tom Lemmens, <br/>Blarumyrran [CC0] (original chest)",
             "sources": "https://github.com/lemtom"
         },
         "Object2.png": {
@@ -43,15 +43,15 @@
             "status": "done",
             "year": "2017",
             "from": "RPG Maker 2000/2003",
-            "authors": "MrBeast, Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), Carl Olsson (surt), Ogrebane, Garrett Wessner (Gwes), Dmytro Kushnariov (jikmok) [CC0], Tom Lemmens [CC0]",
-            "sources": "(surt, [CC0]) https://opengameart.org/content/town-tiles, (surt, [CC0]) https://opengameart.org/content/forest-tiles, (beast, [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, (orgebane, [CC0]) https://opengameart.org/content/16x16-tiles, (redshrike, [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, (beast, [CC0]) https://opengameart.org/content/m13-cave-tileset, (marianognu, wtfpl) https://community.easyrpg.org/t/basis-png-by-marianognu/121"
+            "authors": "MrBeast, <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt), <br/>Ogrebane, <br/>Garrett Wessner (Gwes), <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0]",
+            "sources": "(surt - [CC0]) https://opengameart.org/content/town-tiles, <br/>(surt - [CC0]) https://opengameart.org/content/forest-tiles, <br/>(beast - [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, <br/>(orgebane - [CC0]) https://opengameart.org/content/16x16-tiles, <br/>(redshrike - [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>(beast - [CC0]) https://opengameart.org/content/m13-cave-tileset, <br/>(marianognu - wtfpl) https://community.easyrpg.org/t/basis-png-by-marianognu/121"
         },
         "World.png": {
             "status": "done",
             "year": "2014",
             "from": "RPG Maker 2000/2003",
-            "authors": "MrBeast, Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), Carl Olsson (surt), Ogrebane, Garrett Wessner (Gwes), Dmytro Kushnariov (jikmok) [CC0]",
-            "sources": "(surt, [CC0]) https://opengameart.org/content/town-tiles, (surt, [CC0]) https://opengameart.org/content/forest-tiles, (beast, [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, (orgebane, [CC0]) https://opengameart.org/content/16x16-tiles, (redshrike, [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, (beast, [CC0]) https://opengameart.org/content/m13-cave-tileset, (gwes, [CC0]) https://opengameart.org/content/nes-[CC0]-graphics-2"
+            "authors": "MrBeast, <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt), <br/>Ogrebane, <br/>Garrett Wessner (Gwes), <br/>Dmytro Kushnariov (jikmok) [CC0]",
+            "sources": "(surt - [CC0]) https://opengameart.org/content/town-tiles, <br/>(surt - [CC0]) https://opengameart.org/content/forest-tiles, <br/>(beast - [CC-BY]) https://opengameart.org/content/worldmapoverworld-tileset, <br/>(orgebane - [CC0]) https://opengameart.org/content/16x16-tiles, <br/>(redshrike - [CC-BY]) https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>(beast - [CC0]) https://opengameart.org/content/m13-cave-tileset, <br/>(gwes - [CC0]) https://opengameart.org/content/nes-[CC0]-graphics-2"
         }
     },
     "FaceSet": {
@@ -68,8 +68,8 @@
             "status": "done",
             "year": "2020",
             "from": "RPG Maker 2000/2003",
-            "authors": "jetrotal [CC0], kou [CC-BY] (koubit_001, Font)",
-            "sources": "https://github.com/jetrotal, https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=265"
+            "authors": "jetrotal [CC0], <br/>kou [CC-BY] (koubit_001, <br/>Font)",
+            "sources": "https://github.com/jetrotal, <br/>https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=265"
         }
     },
     "Monster": {
@@ -380,61 +380,12 @@
         }
     },
     "Sound": {
-        "Barrier.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Buff.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Buzzer4.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
         "Cancel1.wav": {
             "status": "done",
             "year": "2009",
             "from": "RPG Maker 2000/2003",
             "authors": " LokiF [CC0]",
             "sources": "https://opengameart.org/content/gui-sound-effects"
-        },
-        "Cancel2.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Chime1.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Chime2.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Confusion.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
         },
         "Cursor1.wav": {
             "status": "done",
@@ -443,27 +394,6 @@
             "authors": " Kenney [CC0]",
             "sources": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks"
         },
-        "Cursor2.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Debuff.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Decision1.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
         "Decision2.wav": {
             "status": "done",
             "year": "2016",
@@ -471,61 +401,12 @@
             "authors": " celestialghost8 [CC0]",
             "sources": "http://opengameart.org/content/8bit-sfx"
         },
-        "Fire3.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Fire7.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Holy2.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Holy7.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Ice7.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
-        "Ice9.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
-        },
         "Item2.wav": {
             "status": "done",
             "year": "2009",
             "from": "RPG Maker 2000/2003",
             "authors": " LokiF [CC0]",
             "sources": "https://opengameart.org/content/gui-sound-effects"
-        },
-        "Poison.wav": {
-            "status": "wip",
-            "year": "2022",
-            "from": "RPG Maker 2000/2003",
-            "authors": "JosephSeraph [CC0]",
-            "sources": "https://twitter.com/SeraphCircle"
         }
     },
     "System": {
