@@ -5,7 +5,7 @@ Creative Commons Attribution 4.0 International license.
 
 License URL: https://creativecommons.org/licenses/by/4.0/
 
-Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Authors' URL
+Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Authors' URL
  :- | :- | :- | :-
 **📁 `BattleWeapon`**|  
 ⠀⠀ `Weapon.png` | 2010 | russidan (Alephman) [CC-BY] | None
