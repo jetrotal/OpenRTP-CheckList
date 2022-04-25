@@ -71,8 +71,8 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
     </div>
   </div>
 </table>
-<div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`+
- `<p dir="auto"><a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a></p>` 
+<div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`;
+document.getElementById("project_tagline") =  `<p dir="auto"><a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a></p>` 
        ;
 
 function start() {
