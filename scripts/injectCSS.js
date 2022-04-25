@@ -3,6 +3,7 @@ if (!document.getElementById("injectCSS"))
 document.head.innerHTML+=`<link rel="shortcut icon" type="image/x-icon" href="./img/favIco.png?">`,
 document.body.innerHTML += 
 `<style id="injectCSS">
+#forkme{display:none!important}
 #assetPointer{
     vertical-align: middle;
 }
