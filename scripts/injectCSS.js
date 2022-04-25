@@ -3,6 +3,9 @@ if (!document.getElementById("injectCSS"))
 document.head.innerHTML+=`<link rel="shortcut icon" type="image/x-icon" href="./img/favIco.png?">`,
 document.body.innerHTML += 
 `<style id="injectCSS">
+code {
+    padding: 5px;
+}
 #project_tagline{
 font-size:17px;
 margin:0;
