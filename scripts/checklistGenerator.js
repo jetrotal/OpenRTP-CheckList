@@ -10,6 +10,8 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
     };
 
+document.getElementById("forkme_banner").href ="https://github.com/easyRPG/RTP/"
+
 var rtpJSON = { src:{} };
 rtpJSON.src.files = baseURL + "data/rtpFiles.json?" + timeStamp;
 rtpJSON.src.data = baseURL + "data/rtpData.json?" + timeStamp;
