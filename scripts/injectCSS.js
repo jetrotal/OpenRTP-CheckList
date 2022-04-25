@@ -10,7 +10,6 @@ code {
 font-size:17px;
 margin:0;
     }
-#forkme_banner{display:none!important}
 #assetPointer{
     vertical-align: middle;
 }
