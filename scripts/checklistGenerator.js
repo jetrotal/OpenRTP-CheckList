@@ -191,7 +191,10 @@ Creative Commons Attribution 4.0 International license.</p>
 
     });
     checklist += "</section>";
-    document.getElementById("main_content").innerHTML = checklist;
+ document.getElementById("main_content").innerHTML =
+`<p dir="auto"><a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><code>EasyRPG Forum</code></a></p>` 
+       
+    document.getElementById("main_content").innerHTML += checklist;
     placeBar(assetsCounter);
 
     if (location.hash) {
@@ -241,8 +244,7 @@ function placeBar(obj) {
     obj = updateBar(obj)[0];
     document.getElementById("rtpBar").innerHTML = obj.html.join("");
     var currFolder = urlParams.get("filter") == gitData.assetsFolders ? "[ " + gitData.assetsFolders.join(" + ") + " ]" : "OpenRTP";
-    document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed."+
-        `<p dir="auto"><a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a></p>` 
+    document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed.<br>"+
         + obj.total + " assets loaded.";
 }
 
