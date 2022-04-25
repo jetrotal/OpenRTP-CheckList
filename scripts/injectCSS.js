@@ -4,7 +4,8 @@ document.head.innerHTML+=`<link rel="shortcut icon" type="image/x-icon" href="./
 document.body.innerHTML += 
 `<style id="injectCSS">
 #project_tagline{
-font-size:17px
+font-size:17px;
+margin:0;
     }
 #forkme_banner{display:none!important}
 #assetPointer{
