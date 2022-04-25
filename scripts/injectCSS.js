@@ -3,9 +3,8 @@ if (!document.getElementById("injectCSS"))
 document.head.innerHTML+=`<link rel="shortcut icon" type="image/x-icon" href="./img/favIco.png?">`,
 document.body.innerHTML += 
 `<style id="injectCSS">
-code{
-background-color: #303030;
-    color: white;
+#project_tagline{
+font-size:17px
     }
 #forkme_banner{display:none!important}
 #assetPointer{
