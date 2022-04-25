@@ -241,8 +241,8 @@ function placeBar(obj) {
     obj = updateBar(obj)[0];
     document.getElementById("rtpBar").innerHTML = obj.html.join("");
     var currFolder = urlParams.get("filter") == gitData.assetsFolders ? "[ " + gitData.assetsFolders.join(" + ") + " ]" : "OpenRTP";
-    document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed.<br> "+
-        `<p dir="auto">Send your Art: <a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a> <a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"> <code>Discord</code></a></p><br>` 
+    document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed."+
+        `<p dir="auto">Send your Art: <a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a></p>` 
         + obj.total + " assets loaded.";
 }
 
