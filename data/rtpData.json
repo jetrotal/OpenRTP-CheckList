@@ -1,7 +1,5 @@
 {
-    "Backdrop": {
-
-    },
+    "Backdrop": {},
     "Battle": {
         "Arrow.png": {
             "status": "done",
@@ -25,9 +23,7 @@
             "sources": "https://github.com/Someoneman"
         }
     },
-    "BattleCharSet": {
-
-    },
+    "BattleCharSet": {},
     "BattleWeapon": {
         "Weapon.png": {
             "status": "done",
@@ -111,12 +107,26 @@
         }
     },
     "Music": {
+        "2003Final Battleground.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "northivanastan [cc0]",
+            "sources": "https://opengameart.org/users/northivanastan"
+        },
         "Battle 1.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Battle 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "northivanastan [cc0]",
+            "sources": "https://opengameart.org/users/northivanastan"
         },
         "Boss 3.mid": {
             "status": "done",
