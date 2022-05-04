@@ -1,3 +1,9 @@
+String.prototype.safeCSS = function() {
+  return encodeURIComponent(this)
+    .toLowerCase()
+    .replace(/\.|%[0-9a-z]{2}/gi, '');
+}
+
 var urlParams = new URLSearchParams(window.location.search),
     baseURL = location.href.split(location.search || location.hash || /[?#]/)[0],
     timeStamp = Date.now(),
@@ -166,8 +172,8 @@ Creative Commons Attribution 4.0 International license.</p>
         <table>
           <tbody>
             <tr>
-              <td class="` + assetName.split(".")[0] + `" ><img onError="hideBrokenAsset(\`` + assetName.split(".")[0] + `\`)"  loading="lazy" src="` + imgA + "?" + timeStamp + `" ` + audioA + `></img></td>
-              <td class="` + assetName.split(".")[0] + `" id="assetPointer">👉</td>
+              <td class="` + assetName.safeCSS()+ `" ><img onError="hideBrokenAsset(\`` + assetName.safeCSS() + `\`)"  loading="lazy" src="` + imgA + "?" + timeStamp + `" ` + audioA + `></img></td>
+              <td class="` + assetName.safeCSS() + `" id="assetPointer">👉</td>
               <td>
                 <x ` + faded + `><img loading="lazy" src="` + imgB + "?" + timeStamp + `" ` + audioB + `></img></x>
               </td>
