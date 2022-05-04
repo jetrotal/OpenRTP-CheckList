@@ -146,10 +146,10 @@ Creative Commons Attribution 4.0 International license.</p>
 
             var faded = "default" == priority ? " style='opacity:0.1' " : "";
 
-            imgA.includes(".mid") || imgA.includes(".midi") ? (audioA = 'style ="cursor:pointer" onClick=" toggleMusic(this,\'' + imgA + "?" + timeStamp + "');\"", imgA = assetsURL.playBT) : "";
-            imgB.includes(".mid") || imgB.includes(".midi") ? (audioB = 'style ="cursor:pointer" onClick=" toggleMusic(this,\'' + imgB + "?" + timeStamp + "');\"", imgB = assetsURL.playBT) : "";
-            imgA.includes(".wav") || imgA.includes(".mp3") ? (audioA = 'style ="cursor:pointer" onClick=" toggleSFX(this,\'' + imgA + "?" + timeStamp + "');\"", imgA = assetsURL.playBT) : "";
-            imgB.includes(".wav") || imgB.includes(".mp3") ? (audioB = 'style ="cursor:pointer" onClick=" toggleSFX(this,\'' + imgB + "?" + timeStamp + "');\"", imgB = assetsURL.playBT) : "";
+            imgA.includes(".mid") || imgA.includes(".midi") ? (audioA = 'style ="cursor:pointer" onClick=" toggleMusic(this,\`' + imgA + "?" + timeStamp + "`);\"", imgA = assetsURL.playBT) : "";
+            imgB.includes(".mid") || imgB.includes(".midi") ? (audioB = 'style ="cursor:pointer" onClick=" toggleMusic(this,\`' + imgB + "?" + timeStamp + "`);\"", imgB = assetsURL.playBT) : "";
+            imgA.includes(".wav") || imgA.includes(".mp3") ? (audioA = 'style ="cursor:pointer" onClick=" toggleSFX(this,\`' + imgA + "?" + timeStamp + "`);\"", imgA = assetsURL.playBT) : "";
+            imgB.includes(".wav") || imgB.includes(".mp3") ? (audioB = 'style ="cursor:pointer" onClick=" toggleSFX(this,\`' + imgB + "?" + timeStamp + "`);\"", imgB = assetsURL.playBT) : "";
 
 
             tempHTML +=
@@ -166,8 +166,8 @@ Creative Commons Attribution 4.0 International license.</p>
         <table>
           <tbody>
             <tr>
-              <td><img loading="lazy" src="` + imgA + "?" + timeStamp + `" ` + audioA + `></img></td>
-              <td id="assetPointer">👉</td>
+              <td class="` + imgA + `" ><img onError="hideBrokenAsset(\`` + imgA + `\`)"  loading="lazy" src="` + imgA + "?" + timeStamp + `" ` + audioA + `></img></td>
+              <td class="` + imgA + `" id="assetPointer">👉</td>
               <td>
                 <x ` + faded + `><img loading="lazy" src="` + imgB + "?" + timeStamp + `" ` + audioB + `></img></x>
               </td>
@@ -247,6 +247,13 @@ function placeBar(obj) {
     var currFolder = urlParams.get("filter") == gitData.assetsFolders ? "[ " + gitData.assetsFolders.join(" + ") + " ]" : "OpenRTP";
     document.getElementById("rtpTotal").innerHTML = currFolder + " Collection is " + Math.round(obj.percent[0]) + "% Completed.<br>"+
         + obj.total + " assets loaded.";
+}
+
+function hideBrokenAsset(obj){
+var style = document.createElement('style');
+style.type = 'text/css';
+style.innerHTML = '.obj { display: none; }';
+document.getElementsByTagName('head')[0].appendChild(style);
 }
 
 start();
