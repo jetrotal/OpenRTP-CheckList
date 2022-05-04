@@ -256,10 +256,7 @@ function placeBar(obj) {
 }
 
 function hideBrokenAsset(obj){
-var style = document.createElement('style');
-style.type = 'text/css';
-style.innerHTML = '.obj { display: none; }';
-document.getElementsByTagName('head')[0].appendChild(style);
+for (let el of document.querySelectorAll('.'+obj)) el.style.visibility = 'hidden';
 }
 
 start();
