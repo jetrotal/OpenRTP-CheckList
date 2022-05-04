@@ -317,7 +317,10 @@
         "Exterior.png",
         "Interior.png",
         "Ship.png",
-        "World.png"
+        "World.png",
+        "[retro]Dungeon.png",
+        "[retro]Exterior.png",
+        "[retro]World.png"
     ],
     "Monster": [
         "Ahriman.png",
