@@ -166,8 +166,8 @@ Creative Commons Attribution 4.0 International license.</p>
         <table>
           <tbody>
             <tr>
-              <td class="` + imgA + `" ><img onError="hideBrokenAsset(\`` + imgA + `\`)"  loading="lazy" src="` + imgA + "?" + timeStamp + `" ` + audioA + `></img></td>
-              <td class="` + imgA + `" id="assetPointer">👉</td>
+              <td class="` + assetName.split(".")[0] + `" ><img onError="hideBrokenAsset(\`` + assetName.split(".")[0] + `\`)"  loading="lazy" src="` + imgA + "?" + timeStamp + `" ` + audioA + `></img></td>
+              <td class="` + assetName.split(".")[0] + `" id="assetPointer">👉</td>
               <td>
                 <x ` + faded + `><img loading="lazy" src="` + imgB + "?" + timeStamp + `" ` + audioB + `></img></x>
               </td>
