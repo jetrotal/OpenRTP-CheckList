@@ -163,12 +163,33 @@
             "authors": "northivanastan [cc0]",
             "sources": "https://opengameart.org/users/northivanastan"
         },
+        "Boss 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂 [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Boss 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Boss 3.mid": {
             "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "Someoneman [cc0]",
             "sources": "https://github.com/Someoneman"
+        },
+        "Boss 4.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "Castle 1.mid": {
             "status": "done",
@@ -177,12 +198,40 @@
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Castle 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Castle 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Church.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Defeat.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Demon Lord.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "Dungeon 1.mid": {
             "status": "done",
@@ -191,12 +240,75 @@
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Dungeon 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Dungeon 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Dungeon 4.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Dungeon 5.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Ending 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Ending 2.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Ending 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Exploration.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "Fairy 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "Fairy 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Field 1.mid": {
             "status": "done",
@@ -205,12 +317,89 @@
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Field 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Field 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Field 4.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Game Over 1.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Game Over 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Game Over 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Ghost Town 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "Ghost Town 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "Hero 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Hero 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "In a Pinch.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "J2003Horn.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "JDoubt.mid": {
             "status": "done",
@@ -331,6 +520,20 @@
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Liveliness.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Lively Market.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Mystery 1.mid": {
             "status": "done",
             "year": "2010",
@@ -338,12 +541,82 @@
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Mystery 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Mystery 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "Opening 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Opening 2.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Opening 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Parting 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "Parting 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Repose 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Repose 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Repose 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Secret Treasure.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "morusque [CC-BY]",
+            "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Sorrow.mid": {
             "status": "done",
