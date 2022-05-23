@@ -57,6 +57,34 @@
         }
     },
     "ChipSet": {
+        "Dungeon.png": {
+            "status": "done",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "JasonPerry [CC0]",
+            "sources": "https://finalbossblues.itch.io/"
+        },
+        "Exterior.png": {
+            "status": "done",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "JasonPerry [CC0]",
+            "sources": "https://finalbossblues.itch.io/"
+        },
+        "Interior.png": {
+            "status": "done",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "JasonPerry [CC0]",
+            "sources": "https://finalbossblues.itch.io/"
+        },
+        "Ship.png": {
+            "status": "done",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "JasonPerry [CC0]",
+            "sources": "https://finalbossblues.itch.io/"
+        },
         "[retro]Dungeon.png": {
             "status": "done",
             "year": "2018",
