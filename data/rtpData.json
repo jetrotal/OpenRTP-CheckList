@@ -92,21 +92,21 @@
             "authors": "JasonPerry [CC0]",
             "sources": "https://finalbossblues.itch.io/"
         },
-        "[retro]Dungeon.png": {
+        "retro_Dungeon.png": {
             "status": "done",
             "year": "2018",
             "from": "RPG Maker 2000/2003",
             "authors": "Dmytro Kushnariov [CC0]",
             "sources": "https://easyrpg.org"
         },
-        "[retro]Exterior.png": {
+        "retro_Exterior.png": {
             "status": "done",
             "year": "2017",
             "from": "RPG Maker 2000/2003",
             "authors": "MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0], <br/>marianognu [WTFPL]",
             "sources": "surt: https://opengameart.org/content/town-tiles, <br/>surt: https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>marianognu: https://community.easyrpg.org/t/basis-png-by-marianognu/121"
         },
-        "[retro]World.png": {
+        "retro_World.png": {
             "status": "done",
             "year": "2014",
             "from": "RPG Maker 2000/2003",
