@@ -13,7 +13,7 @@ var urlParams = new URLSearchParams(window.location.search),
         repo: "OpenRTP-CheckList",
         branch: "default",
         rtpFolder: "RTP",
-        assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Sound System System2 Title".split(" ")
+        assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Picture Sound System System2 Title".split(" ")
     };
 
 document.getElementById("forkme_banner").href ="https://github.com/easyRPG/RTP/"
