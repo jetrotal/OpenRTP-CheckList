@@ -142,12 +142,96 @@
         }
     },
     "Music": {
+        "2003Adventurers.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "2003Ancient City.mid": {
             "status": "review",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "2003Battle with an Evil God.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Beginning of a War.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Casino Indulgence.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Cathedral.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Church.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003City Bustle.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Colosseum.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Creeping Darkness.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Cyber City.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003DarkAltar.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Deep Memory.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "2003Deserted Mansion.mid": {
             "status": "review",
@@ -162,6 +246,20 @@
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "2003Dream of Striking It Rich.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Dreaminess.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "2003Empire.mid": {
             "status": "review",
