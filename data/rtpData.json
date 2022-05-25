@@ -170,12 +170,103 @@
             "authors": "northivanastan [cc0]",
             "sources": "https://opengameart.org/users/northivanastan"
         },
+        "2003Hero's Return.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Ice Labyrinth.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003In the Eternal Flow of Time.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Little Army's March.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
         "2003Lonesome Journey.mid": {
             "status": "review",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
+        },
+        "2003Machine Fortress.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Maximum Battle.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Otherworldly Corridor.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Palace Party.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Panic.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Repeated Wars.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Silence.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Snow Town.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Sorrow.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
         },
         "2003Steady Breeze.mid": {
             "status": "review",
@@ -184,6 +275,76 @@
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
+        "2003Subterranean Maze.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003SunnyVillage.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Tavern.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Tension.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Village in the Valley.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Village of Savages.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Waltz of Blessings.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Wings to the Sky.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Young Memories.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Animal.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Battle 1.mid": {
             "status": "done",
             "year": "2010",
@@ -191,12 +352,26 @@
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Battle 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Battle 3.mid": {
             "status": "review",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "northivanastan [cc0]",
             "sources": "https://opengameart.org/users/northivanastan"
+        },
+        "Black Market.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "Boss 1.mid": {
             "status": "review",
