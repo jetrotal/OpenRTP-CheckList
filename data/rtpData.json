@@ -653,12 +653,82 @@
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
+        "Ship 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Ship 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Ship 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Shop 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Shop 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Shop 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Sorrow.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Thief.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Tower 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Tower 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Tower 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "Town 1.mid": {
             "status": "done",
@@ -667,12 +737,82 @@
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
+        "Town 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Town 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Trial.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "Vehicle 1.mid": {
             "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
+        },
+        "Vehicle 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Vehicle 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Victory.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Village 1.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Village 2.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "Village 3.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "Wrath.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         }
     },
     "Panorama": {
