@@ -163,12 +163,54 @@
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
+        "2003Empire.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Exploring Ruins.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Fairy Forest.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "いのじゅん(junichiinoue) [CC-BY]",
+            "sources": "https://midisozai.inojun.net/"
+        },
+        "2003Far Eastern Land.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
         "2003Final Battleground.mid": {
             "status": "review",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "northivanastan [cc0]",
             "sources": "https://opengameart.org/users/northivanastan"
+        },
+        "2003Free For All.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
+        },
+        "2003Healing Spring.mid": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "魔王魂(Maoudamashii) [CC-BY]",
+            "sources": "https://maou.audio/rule/"
         },
         "2003Hero's Return.mid": {
             "status": "review",
