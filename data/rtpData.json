@@ -770,8 +770,8 @@
     },
     "Picture": {
         "Cloud.png": {
-            "status": "review",
-            "year": "2022",
+            "status": "done",
+            "year": "2001",
             "from": "RPG Maker 2000/2003",
             "authors": "DonMiguel [CC0]",
             "sources": "https://github.com/easyrpg/rtp/issues/25#issuecomment-1061979316"
