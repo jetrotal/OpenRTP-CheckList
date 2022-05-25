@@ -768,6 +768,15 @@
             "sources": "https://github.com/lemtom"
         }
     },
+    "Picture": {
+        "Cloud.png": {
+            "status": "review",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "DonMiguel [CC0]",
+            "sources": "https://github.com/easyrpg/rtp/issues/25#issuecomment-1061979316"
+        }
+    },
     "Sound": {
         "Absorb1.wav": {
             "status": "done",
