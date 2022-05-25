@@ -60,7 +60,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Opening 2.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `Sorrow.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `Town 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
-└⠀ `Vehicle 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
+├⠀ `Vehicle 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 **📁 `Panorama`**|  
 ├⠀ `Cosmos1.png` | 2015 |  Tom Lemmens [CC-BY] [OGA-BY] | https://github.com/lemtom
 ├⠀ `Dawn1.png` | 2015 |  Tom Lemmens [CC-BY] [OGA-BY] | https://github.com/lemtom
