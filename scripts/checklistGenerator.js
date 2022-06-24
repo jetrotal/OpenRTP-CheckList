@@ -16,7 +16,7 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Picture Sound System System2 Title".split(" ")
     };
 
-gitData.filterAssets = gitData,assetsFolders;
+gitData.filterAssets = gitData.assetsFolders;
 
 document.getElementById("forkme_banner").href ="https://github.com/easyRPG/RTP/"
 
