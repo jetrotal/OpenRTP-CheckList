@@ -80,8 +80,31 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
   </div>
 </table>
 <div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`;
-document.getElementById("project_tagline").innerHTML =  `<a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a>` 
-       ;
+document.getElementById("project_tagline").innerHTML =  `<a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a>`;
+
+function makeFilters(i) {
+  var select = document.getElementById("assetsFilter");
+  var opt = document.createElement("option");
+  opt.value = i;
+  opt.innerHTML = i;
+  select.appendChild(opt);
+}
+
+var rootURL = window.location.href.split(/[?#]/)[0];
+document.getElementById("project_tagline").innerHTML +=`
+<code>Asset Type:
+<select name="filter" id="assetsFilter">
+  <option value="all">Display All Assets</option>
+</select>
+</code>
+`
+gitData.assetsFolders.forEach(makeFilters);
+
+document.getElementById("assetsFilter").onchange = 
+    function(){
+        if (this.value=='all') return window.location.href = rootURL 
+        window.location.href = rootURL +"?filter="+ this.value
+    };
 
 function start() {
     injectCSS();
