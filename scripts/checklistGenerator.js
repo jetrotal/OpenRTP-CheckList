@@ -16,6 +16,8 @@ var urlParams = new URLSearchParams(window.location.search),
         assetsFolders: "Backdrop Battle BattleCharSet BattleWeapon CharSet ChipSet FaceSet GameOver Monster Music Panorama Picture Sound System System2 Title".split(" ")
     };
 
+gitData.filterAssets = gitData,assetsFolders;
+
 document.getElementById("forkme_banner").href ="https://github.com/easyRPG/RTP/"
 
 var rtpJSON = { src:{} };
@@ -93,17 +95,16 @@ function makeFilters(i) {
 var rootURL = window.location.href.split(/[?#]/)[0];
 document.getElementById("project_tagline").innerHTML +=`
 <code>Asset Type:
-<select name="filter" id="assetsFilter">
+<select name="filter" id="assetsFilter" onChange="gotoFilter(this)">
   <option value="all">Display All Assets</option>
 </select>
 </code>
 `
-gitData.assetsFolders.forEach(makeFilters);
+gitData.filterAssets.forEach(makeFilters);
 
-document.getElementById("assetsFilter").onchange = 
-    function(){
-        if (this.value=='all') return window.location.href = rootURL 
-        window.location.href = rootURL +"?filter="+ this.value
+    function gotoFilter(obj){
+        if (obj.value=='all') return window.location.href = rootURL 
+        window.location.href = rootURL +"?filter="+ obj.value
     };
 
 function start() {
