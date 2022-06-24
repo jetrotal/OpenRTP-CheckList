@@ -138,6 +138,7 @@ async function loadJSON(src, callback) {
 
 async function settingFolders(result) {
     console.log("It succeeded with " + result);
+document.getElementById('assetsFilter').value = result
     gitData.assetsFolders = result;
    
     checklist += "<section id='checklist'>";
