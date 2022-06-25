@@ -82,7 +82,11 @@ var assetsColors = ["#16C60C", "#0078D7", "#FFF100", "#383838", "#E81224"],
   </div>
 </table>
 <div style="text-align: center; margin:auto; width:max-content" id="rtpTotal">Loaded 0 assets in total</div>`;
-document.getElementById("project_tagline").innerHTML =  `<a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a>`;
+document.getElementById("project_tagline").innerHTML =  `<a href="https://github.com/EasyRPG/RTP/issues/25"><code>Guide for Artists</code></a><a href="https://t.co/0MJZlivP9D" rel="nofollow"><code>Discord</code></a><a href="https://t.co/K4AXAeG0Yp" rel="nofollow"><code>EasyRPG Forum</code></a>
+<a href="https://github.com/EasyRPG/RTP/archive/refs/heads/master.zip" rel="nofollow" style="
+    position: absolute;
+    right: 10px;
+"><code>Download OpenRTP</code></a>`;
 
 function makeFilters(i) {
   var select = document.getElementById("assetsFilter");
