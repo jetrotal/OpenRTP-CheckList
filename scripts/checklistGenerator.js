@@ -94,9 +94,9 @@ function makeFilters(i) {
 
 var rootURL = window.location.href.split(/[?#]/)[0];
 document.getElementById("project_tagline").innerHTML +=`
-<code>Asset Type:
+<code>Display:
 <select name="filter" id="assetsFilter" onChange="gotoFilter(this)">
-  <option value="all">Display All Assets</option>
+  <option value="all">All Assets</option>
 </select>
 </code>
 `
@@ -138,7 +138,7 @@ async function loadJSON(src, callback) {
 
 async function settingFolders(result) {
     console.log("It succeeded with " + result);
-document.getElementById('assetsFilter').value = result
+if (result.length == 1)document.getElementById('assetsFilter').value = result;
     gitData.assetsFolders = result;
    
     checklist += "<section id='checklist'>";
