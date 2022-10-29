@@ -16,7 +16,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 **📁 `CharSet`**|  
 ├⠀ `Actor1.png` | 2010 | Marina Navarro Travesset [CC-BY] | https://muerteatartajo.blogspot.com
 ├⠀ `Object1.png` | 2017 | Tom Lemmens, <br/>Blarumyrran [CC0] (original chest) | https://github.com/lemtom
-└⠀ `Object2.png` | 2010 | Verdant_Jack [CC0] | https://community.easyrpg.org/t/test-for-new-rtp/1067/8
+├⠀ `Object2.png` | 2010 | Verdant_Jack [CC0] | https://community.easyrpg.org/t/test-for-new-rtp/1067/8
 **📁 `ChipSet`**|  
 ├⠀ `Dungeon.png` | 2022 | JasonPerry [CC0] | https://finalbossblues.itch.io/
 ├⠀ `Exterior.png` | 2022 | JasonPerry [CC0] | https://finalbossblues.itch.io/
