@@ -1,5 +1,237 @@
 {
-    "Backdrop": {},
+    "Backdrop": {
+        "Arena.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Bathhouse.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Beach.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Bridge.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Castle.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Desert.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Dungeon1.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Dungeon2.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Dungeon3.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Dungeon4.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Dungeon5.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Dungeon6.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Forest1.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Forest2.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Graveyard.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Mansion.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Mountain Road.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Old Town.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Road.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Rocky Road.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Ruins1.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Ruins2.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Sea.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Ship.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Sky.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Snow Field.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Space.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Swamp.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Temple1.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Temple2.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Town.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Universe.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        },
+        "Wasteland.png": {
+            "status": "wip",
+            "year": "2022",
+            "from": "RPG Maker 2000/2003",
+            "authors": "stablediffusion [CC0]",
+            "sources": "https://discord.gg/stablediffusion"
+        }
+    },
     "Battle": {
         "Arrow.png": {
             "status": "done",
