@@ -240,12 +240,208 @@
         }
     },
     "Battle": {
+        "2003 Absorb.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Axe.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Barrier.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Blow.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Breath.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Claw.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Cold.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Cure.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Dark.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Earth.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Explosion.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Fire.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Holy.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Light Pillar.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Other1.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Other2.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Paralysis.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Recovery.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Revive.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Spear.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Sword.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Thunder.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Water.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Whip.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "2003 Wind.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
         "Arrow.png": {
             "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "Someoneman [cc0]",
             "sources": "https://github.com/Someoneman"
+        },
+        "Axe.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Barrier.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Bite.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
         },
         "Blow.png": {
             "status": "done",
@@ -254,12 +450,166 @@
             "authors": "Someoneman [cc0]",
             "sources": "https://github.com/Someoneman"
         },
+        "Breath.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Buff.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Claw.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Dark.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Debuff.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Earth.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Explosion.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Fire1.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Fire2.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Holy.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Ice.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Other.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Paralysis.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Recovery.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Ressurection.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Spear.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
         "Sword1.png": {
             "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "Someoneman [cc0]",
             "sources": "https://github.com/Someoneman"
+        },
+        "Sword2.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Thunder.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Treatment.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Water.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Whip.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
+        },
+        "Wind.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
         }
     },
     "BattleCharSet": {},
@@ -417,343 +767,343 @@
     },
     "Music": {
         "2003Adventurers.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Ancient City.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "2003Battle with an Evil God.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Beginning of a War.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Casino Indulgence.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Cathedral.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Church.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003City Bustle.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Colosseum.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Creeping Darkness.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Cyber City.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003DarkAltar.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Deep Memory.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Deserted Mansion.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "2003Dream Forest.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "2003Dream of Striking It Rich.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Dreaminess.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Empire.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Exploring Ruins.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Fairy Forest.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Far Eastern Land.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Final Battleground.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "northivanastan [cc0]",
             "sources": "https://opengameart.org/users/northivanastan"
         },
         "2003Free For All.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Healing Spring.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Hero's Return.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Ice Labyrinth.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003In the Eternal Flow of Time.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Little Army's March.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Lonesome Journey.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "2003Machine Fortress.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Maximum Battle.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Otherworldly Corridor.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Palace Party.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Panic.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Repeated Wars.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Silence.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Snow Town.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Sorrow.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Steady Breeze.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [cc-by]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "2003Subterranean Maze.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003SunnyVillage.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Tavern.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Tension.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Village in the Valley.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Village of Savages.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "2003Waltz of Blessings.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Wings to the Sky.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "2003Young Memories.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Animal.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -767,35 +1117,35 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Battle 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Battle 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "northivanastan [cc0]",
             "sources": "https://opengameart.org/users/northivanastan"
         },
         "Black Market.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Boss 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂 [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Boss 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -809,7 +1159,7 @@
             "sources": "https://github.com/Someoneman"
         },
         "Boss 4.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -823,14 +1173,14 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Castle 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Castle 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -844,14 +1194,14 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Defeat.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Demon Lord.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -865,35 +1215,35 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Dungeon 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Dungeon 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Dungeon 4.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Dungeon 5.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Ending 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -907,28 +1257,28 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Ending 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Exploration.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Fairy 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Fairy 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
@@ -942,21 +1292,21 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Field 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Field 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Field 4.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -970,56 +1320,56 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Game Over 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Game Over 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Ghost Town 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Ghost Town 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Hero 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Hero 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "In a Pinch.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "J2003Horn.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -1145,14 +1495,14 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Liveliness.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Lively Market.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -1166,21 +1516,21 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Mystery 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Mystery 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Opening 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -1194,91 +1544,91 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Opening 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Parting 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "morusque [CC-BY]",
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Parting 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Repose 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Repose 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Repose 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Secret Treasure.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Ship 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Ship 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Ship 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Shop 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Shop 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Shop 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -1292,28 +1642,28 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Thief.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Tower 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Tower 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Tower 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -1327,21 +1677,21 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Town 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Town 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Trial.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
@@ -1355,49 +1705,49 @@
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "Vehicle 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Vehicle 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Victory.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Village 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Village 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "いのじゅん(junichiinoue) [CC-BY]",
             "sources": "https://midisozai.inojun.net/"
         },
         "Village 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
             "sources": "https://maou.audio/rule/"
         },
         "Wrath.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "魔王魂(Maoudamashii) [CC-BY]",
