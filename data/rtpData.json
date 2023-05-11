@@ -651,6 +651,13 @@
             "authors": "garakuta(1,2,5,6,7,8)[CC0] <br/>VictorSena(3,4)[CC0] ",
             "sources": "http://garakutamaker.blog.fc2.com/ <br/>https://vashmaker.blogspot.com/p/works.html"
         },
+        "Monster1.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "MerchantShade(1)[CC0] <br/>garakuta(2,4)[CC0] <br/>@Jetrotal(3,5)[CC0] <br/>R.C.O.(6,7)[CC0] <br/>JasonPery+Garakuta+Jetrotal(8)[CC0]",
+            "sources": "https://merchant-shade.itch.io/ <br/>http://garakutamaker.blog.fc2.com/ </br>https://github.com/jetrotal </br>https://finalbossblues.itch.io/"
+        },
         "Object1.png": {
             "status": "done",
             "year": "2017",
