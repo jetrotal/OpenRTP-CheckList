@@ -631,11 +631,11 @@
     },
     "CharSet": {
         "Actor1.png": {
-            "status": "done",
-            "year": "2010",
+            "status": "wip",
+            "year": "2010/2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "Marina Navarro Travesset [CC-BY]",
-            "sources": "https://muerteatartajo.blogspot.com"
+            "authors": "Marina Navarro Travesset(base) [CC-BY] <br/>VictorSena(Remake) [CC0]",
+            "sources": "https://muerteatartajo.blogspot.com <br/>https://vashmaker.blogspot.com/p/works.html"
         },
         "Actor2.png": {
             "status": "wip",
@@ -643,6 +643,13 @@
             "from": "RPG Maker 2000/2003",
             "authors": "VictorSena(1,2,3,4,6,7,8)[CC0]<br/>Garakuta+VictorSena(5)[CC0]",
             "sources": "https://vashmaker.blogspot.com/p/works.html <br/>http://garakutamaker.blog.fc2.com/"
+        },
+        "Actor4.png": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "victorsena [CC0]",
+            "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "Animal.png": {
             "status": "wip",
@@ -673,11 +680,11 @@
             "sources": "https://community.easyrpg.org/t/test-for-new-rtp/1067/8"
         },
         "People3.png": {
-            "status": "review",
-            "year": "2022",
+            "status": "wip",
+            "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "leogamesfun with Easychar:\nR.C.O [CC-BY]\nJason Perry [CC0] - finalbossblues.itch.io \nMarina Navarro Travesset [CC-BY] - https://muerteatartajo.blogspot.com]",
-            "sources": "https://jetrotal.github.io/easychar/"
+            "authors": "VictorSena(1,2,6,7) <br/>Easychar(3,4,5,8):\nR.C.O [CC-BY]\nJason Perry [CC0] - finalbossblues.itch.io \nMarina Navarro Travesset [CC-BY] - https://muerteatartajo.blogspot.com]",
+            "sources": "https://vashmaker.blogspot.com/p/works.html <br/>https://jetrotal.github.io/easychar/"
         }
     },
     "ChipSet": {
