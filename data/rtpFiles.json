@@ -730,6 +730,7 @@
         "Wrath.mid"
     ],
     "CharSet": [
+        "template.png",
         "Actor1.png",
         "Actor2.png",
         "Actor3.png",
