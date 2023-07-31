@@ -1934,6 +1934,20 @@
             "authors": "JosephSeraph [CC0]",
             "sources": "https://twitter.com/SeraphCircle"
         },
+        "Barrier2.wav": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lavendersiren [CC0]",
+            "sources": "https://jingloria.wertercatt.com/dungeoncrashers/index.html"
+        },
+        "Bell.wav": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lavendersiren [CC0]",
+            "sources": "https://jingloria.wertercatt.com/dungeoncrashers/index.html"
+        },
         "Blow2.wav": {
             "status": "done",
             "year": "2022",
@@ -1990,6 +2004,20 @@
             "authors": "JosephSeraph [CC0]",
             "sources": "https://twitter.com/SeraphCircle"
         },
+        "Clock.wav": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lavendersiren [CC0]",
+            "sources": "https://jingloria.wertercatt.com/dungeoncrashers/index.html"
+        },
+        "Close1.wav": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lavendersiren [CC0]",
+            "sources": "https://jingloria.wertercatt.com/dungeoncrashers/index.html"
+        },
         "Confusion.wav": {
             "status": "done",
             "year": "2022",
@@ -2031,6 +2059,13 @@
             "from": "RPG Maker 2000/2003",
             "authors": " celestialghost8 [CC0]",
             "sources": "http://opengameart.org/content/8bit-sfx"
+        },
+        "Earth8.wav": {
+            "status": "wip",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lavendersiren [CC0]",
+            "sources": "https://jingloria.wertercatt.com/dungeoncrashers/index.html"
         },
         "Escape.wav": {
             "status": "done",
