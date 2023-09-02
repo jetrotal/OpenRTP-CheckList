@@ -631,53 +631,60 @@
     },
     "CharSet": {
         "Actor1.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2010/2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "Marina Navarro Travesset(base) [CC-BY] <br/>VictorSena(Edit) [CC0]",
+            "authors": "Marina Navarro Travesset(base) [CC-BY] <br/>VictorSena(Edit) [CC-BY]",
             "sources": "https://muerteatartajo.blogspot.com <br/>https://vashmaker.blogspot.com/p/works.html"
         },
         "Actor2.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena(1,2,3,4,6,7,8)[CC0]<br/>Garakuta+VictorSena(5)[CC0]",
+            "authors": "VictorSena(1,2,3,4,6,7,8)[CC-BY]<br/>Garakuta+VictorSena(5)[CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html <br/>http://garakutamaker.blog.fc2.com/"
         },
         "Actor3.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "Actor4.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "Animal.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "Garakuta(1,2,5,6,7,8)[CC0] <br/>VictorSena(3,4)[CC0] ",
+            "authors": "Garakuta(1,2,5,6,7,8)[CC0] <br/>VictorSena(3,4)[CC-BY] ",
             "sources": "http://garakutamaker.blog.fc2.com/ <br/>https://vashmaker.blogspot.com/p/works.html"
         },
         "Monster1.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
             "authors": "MerchantShade(1)[CC0] <br/>Garakuta(2,4)[CC0] <br/>@Jetrotal(3,5)[CC0] <br/>R.C.O.(6,7)[CC-BY] <br/>JasonPerry+Garakuta+Jetrotal(8)[CC0]",
             "sources": "https://merchant-shade.itch.io/ <br/>http://garakutamaker.blog.fc2.com/ </br>https://github.com/jetrotal </br>https://finalbossblues.itch.io/"
         },
         "Monster2.png": {
+            "status": "done",
+            "year": "2023",
+            "from": "RPG Maker 2000/2003",
+            "authors": "VictorSena [CC-BY], <br/>Garakuta+VictorSena(6)[CC0]",
+            "sources": "https://vashmaker.blogspot.com/p/works.html<br/>http://garakutamaker.blog.fc2.com/"
+        },
+        "Monster3.png": {
             "status": "wip",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0], Garakuta+VictorSena(6)[CC0]",
-            "sources": "https://vashmaker.blogspot.com/p/works.html<br/>http://garakutamaker.blog.fc2.com/"
+            "authors": "VictorSena [CC0]",
+            "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "Object1.png": {
             "status": "done",
@@ -694,49 +701,49 @@
             "sources": "https://community.easyrpg.org/t/test-for-new-rtp/1067/8"
         },
         "People1.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "People2.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "People3.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena(1,2,6,7) <br/>Easychar(3,4,5,8):<br/>├ R.C.O [CC-BY] <br/>├ Jason Perry [CC0] - finalbossblues.itch.io <br/> └ Marina Navarro Travesset [CC-BY] - https://muerteatartajo.blogspot.com]",
+            "authors": "VictorSena(1,2,6,7) [CC-BY] <br/>Easychar(3,4,5,8):<br/>├ R.C.O [CC-BY] <br/>├ Jason Perry [CC0] - finalbossblues.itch.io <br/> └ Marina Navarro Travesset [CC-BY] - https://muerteatartajo.blogspot.com]",
             "sources": "https://vashmaker.blogspot.com/p/works.html <br/>https://jetrotal.github.io/easychar/"
         },
         "People4.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "People5.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "Vehicles.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "template.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
             "authors": "JasonPerry [CC0]",
@@ -1201,7 +1208,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Battle 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1243,7 +1250,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Boss 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2022",
             "from": "RPG Maker 2000/2003",
             "authors": "Someoneman [cc0]",
@@ -1257,7 +1264,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Castle 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1278,7 +1285,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Church.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1299,7 +1306,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Dungeon 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1341,7 +1348,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Ending 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1376,7 +1383,7 @@
             "sources": "http://nurykabe.com/dump/sound/other/midi/"
         },
         "Field 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1404,7 +1411,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Game Over 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
@@ -1467,119 +1474,119 @@
             "sources": "https://maou.audio/rule/"
         },
         "JDoubt.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JEnd of Battle 4.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 3.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 4.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 5.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JFanfare 6.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JInn 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JInn 2.mid": {
-            "status": "review",
+            "status": "revdoneiew",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JItem.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": "Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JJoke 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JJoke 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
             "sources": "https://soundcloud.com/goodgameaudio"
         },
         "JMystery.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
@@ -1600,7 +1607,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Mystery 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
@@ -1628,7 +1635,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Opening 2.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
@@ -1726,7 +1733,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Sorrow.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
@@ -1761,7 +1768,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Town 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
@@ -1789,7 +1796,7 @@
             "sources": "https://maou.audio/rule/"
         },
         "Vehicle 1.mid": {
-            "status": "review",
+            "status": "done",
             "year": "2010",
             "from": "RPG Maker 2000/2003",
             "authors": " Juan Manuel Nigretti [CC-BY]",
