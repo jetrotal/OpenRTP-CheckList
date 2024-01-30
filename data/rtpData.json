@@ -676,14 +676,14 @@
             "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC-BY], <br/>Garakuta+VictorSena(6)[CC0]",
+            "authors": "VictorSena [CC-BY], <br/>Garakuta+VictorSena(6)[CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html<br/>http://garakutamaker.blog.fc2.com/"
         },
         "Monster3.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "VictorSena [CC0]",
+            "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
         },
         "Object1.png": {
@@ -747,7 +747,7 @@
             "year": "2023",
             "from": "RPG Maker 2000/2003",
             "authors": "Community [CC0]",
-            "sources": "https://finalbossblues.itch.io/"
+            "sources": "https://easyrpg.org/"
         }
     },
     "ChipSet": {
@@ -810,35 +810,35 @@
     },
     "FaceSet": {
         "Actor1.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2024",
             "from": "RPG Maker 2000/2003",
             "authors": "Garakuta [CC0]",
             "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "Actor2.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2024",
             "from": "RPG Maker 2000/2003",
             "authors": "Garakuta [CC0]",
             "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "Monster.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2024",
             "from": "RPG Maker 2000/2003",
             "authors": "Garakuta [CC0]",
             "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "People1.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2024",
             "from": "RPG Maker 2000/2003",
             "authors": "Garakuta [CC0]",
             "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "People2.png": {
-            "status": "wip",
+            "status": "done",
             "year": "2024",
             "from": "RPG Maker 2000/2003",
             "authors": "Garakuta [CC0]",
