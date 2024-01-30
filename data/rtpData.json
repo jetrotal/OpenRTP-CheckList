@@ -746,7 +746,7 @@
             "status": "done",
             "year": "2023",
             "from": "RPG Maker 2000/2003",
-            "authors": "JasonPerry [CC0]",
+            "authors": "Community [CC0]",
             "sources": "https://finalbossblues.itch.io/"
         }
     },
@@ -811,38 +811,38 @@
     "FaceSet": {
         "Actor1.png": {
             "status": "wip",
-            "year": "2022",
+            "year": "2024",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "Garakuta [CC0]",
+            "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "Actor2.png": {
             "status": "wip",
-            "year": "2022",
+            "year": "2024",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "Garakuta [CC0]",
+            "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "Monster.png": {
             "status": "wip",
-            "year": "2022",
+            "year": "2024",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "Garakuta [CC0]",
+            "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "People1.png": {
             "status": "wip",
-            "year": "2023",
+            "year": "2024",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "Garakuta [CC0]",
+            "sources": "http://garakutamaker.blog.fc2.com/"
         },
         "People2.png": {
             "status": "wip",
-            "year": "2023",
+            "year": "2024",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "Garakuta [CC0]",
+            "sources": "http://garakutamaker.blog.fc2.com/"
         }
     },
     "GameOver": {

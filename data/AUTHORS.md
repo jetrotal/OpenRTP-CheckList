@@ -64,6 +64,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `JFanfare 5.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `JFanfare 6.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `JInn 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
+├⠀ `JInn 2.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `JItem.mid` | 2010 | Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `JJoke 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `JJoke 2.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
