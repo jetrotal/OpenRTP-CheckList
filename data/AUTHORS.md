@@ -10,7 +10,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 **📁 `Battle`**|  
 ├⠀ `Arrow.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
 ├⠀ `Blow.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
-├⠀ `Sword1.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
+└⠀ `Sword1.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
 **📁 `BattleWeapon`**|  
 └⠀ `Weapon.png` | 2010 | russidan (Alephman) [CC-BY] | None
 **📁 `CharSet`**|  
@@ -20,7 +20,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Actor4.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 ├⠀ `Animal.png` | 2023 | Garakuta(1,2,5,6,7,8)[CC0] <br/>VictorSena(3,4)[CC-BY]  | http://garakutamaker.blog.fc2.com/ <br/>https://vashmaker.blogspot.com/p/works.html
 ├⠀ `Monster1.png` | 2023 | MerchantShade(1)[CC0] <br/>Garakuta(2,4)[CC0] <br/>@Jetrotal(3,5)[CC0] <br/>R.C.O.(6,7)[CC-BY] <br/>JasonPerry+Garakuta+Jetrotal(8)[CC0] | https://merchant-shade.itch.io/ <br/>http://garakutamaker.blog.fc2.com/ </br>https://github.com/jetrotal </br>https://finalbossblues.itch.io/
-├⠀ `Monster2.png` | 2023 | VictorSena [CC-BY], <br/>Garakuta+VictorSena(6)[CC0] | https://vashmaker.blogspot.com/p/works.html<br/>http://garakutamaker.blog.fc2.com/
+├⠀ `Monster2.png` | 2023 | VictorSena [CC-BY], <br/>Garakuta+VictorSena(6)[CC-BY] | https://vashmaker.blogspot.com/p/works.html<br/>http://garakutamaker.blog.fc2.com/
 ├⠀ `Object1.png` | 2017 | Tom Lemmens, <br/>Blarumyrran [CC0] (original chest) | https://github.com/lemtom
 ├⠀ `Object2.png` | 2010 | Verdant_Jack [CC0] | https://community.easyrpg.org/t/test-for-new-rtp/1067/8
 ├⠀ `People1.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
@@ -29,7 +29,8 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `People4.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 ├⠀ `People5.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 ├⠀ `Vehicles.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
-└⠀ `template.png` | 2023 | JasonPerry [CC0] | https://finalbossblues.itch.io/
+├⠀ `Monster3.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
+└⠀ `template.png` | 2023 | Community [CC0] | https://easyrpg.org/
 **📁 `ChipSet`**|  
 ├⠀ `Dungeon.png` | 2022 | JasonPerry [CC0] | https://finalbossblues.itch.io/
 ├⠀ `Exterior.png` | 2022 | JasonPerry [CC0] | https://finalbossblues.itch.io/
@@ -39,6 +40,12 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `retro_Dungeon.png` | 2018 | Dmytro Kushnariov [CC0] | https://easyrpg.org
 ├⠀ `retro_Exterior.png` | 2017 | MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0], <br/>Tom Lemmens [CC0], <br/>marianognu [WTFPL] | surt: https://opengameart.org/content/town-tiles, <br/>surt: https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>marianognu: https://community.easyrpg.org/t/basis-png-by-marianognu/121
 └⠀ `retro_World.png` | 2014 | MrBeast [CC-BY], <br/>Stephen Challener (Redshrike) [CC-BY] (commissioned by OpenGameArt), <br/>Carl Olsson (surt) [CC0], <br/>Ogrebane [CC0], <br/>Garrett Wessner (Gwes) [CC0], <br/>Dmytro Kushnariov (jikmok) [CC0] | surt: https://opengameart.org/content/town-tiles, <br/>surt: https://opengameart.org/content/forest-tiles, <br/>beast: https://opengameart.org/content/worldmapoverworld-tileset, <br/>orgebane: https://opengameart.org/content/16x16-tiles, <br/>redshrike: https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline, <br/>beast: https://opengameart.org/content/m13-cave-tileset, <br/>gwes: https://opengameart.org/content/nes-CC0-graphics-2
+**📁 `FaceSet`**|  
+├⠀ `Actor1.png` | 2024 | Garakuta [CC0] | http://garakutamaker.blog.fc2.com/
+├⠀ `Actor2.png` | 2024 | Garakuta [CC0] | http://garakutamaker.blog.fc2.com/
+├⠀ `Monster.png` | 2024 | Garakuta [CC0] | http://garakutamaker.blog.fc2.com/
+├⠀ `People1.png` | 2024 | Garakuta [CC0] | http://garakutamaker.blog.fc2.com/
+└⠀ `People2.png` | 2024 | Garakuta [CC0] | http://garakutamaker.blog.fc2.com/
 **📁 `GameOver`**|  
 └⠀ `Game Over.png` | 2020 | jetrotal [CC0], <br/>kou [CC-BY] (koubit_001 Font) | https://github.com/jetrotal, <br/>https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=265
 **📁 `Monster`**|  
@@ -73,7 +80,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Opening 2.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `Sorrow.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `Town 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
-├⠀ `Vehicle 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
+└⠀ `Vehicle 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 **📁 `Panorama`**|  
 ├⠀ `Cosmos1.png` | 2015 |  Tom Lemmens [CC-BY] [OGA-BY] | https://github.com/lemtom
 ├⠀ `Dawn1.png` | 2015 |  Tom Lemmens [CC-BY] [OGA-BY] | https://github.com/lemtom
