@@ -21,6 +21,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Animal.png` | 2023 | Garakuta(1,2,5,6,7,8)[CC0] <br/>VictorSena(3,4)[CC-BY]  | http://garakutamaker.blog.fc2.com/ <br/>https://vashmaker.blogspot.com/p/works.html
 ├⠀ `Monster1.png` | 2023 | MerchantShade(1)[CC0] <br/>Garakuta(2,4)[CC0] <br/>@Jetrotal(3,5)[CC0] <br/>R.C.O.(6,7)[CC-BY] <br/>JasonPerry+Garakuta+Jetrotal(8)[CC0] | https://merchant-shade.itch.io/ <br/>http://garakutamaker.blog.fc2.com/ </br>https://github.com/jetrotal </br>https://finalbossblues.itch.io/
 ├⠀ `Monster2.png` | 2023 | VictorSena [CC-BY], <br/>Garakuta+VictorSena(6)[CC-BY] | https://vashmaker.blogspot.com/p/works.html<br/>http://garakutamaker.blog.fc2.com/
+├⠀ `Monster3.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 ├⠀ `Object1.png` | 2017 | Tom Lemmens, <br/>Blarumyrran [CC0] (original chest) | https://github.com/lemtom
 ├⠀ `Object2.png` | 2010 | Verdant_Jack [CC0] | https://community.easyrpg.org/t/test-for-new-rtp/1067/8
 ├⠀ `People1.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
@@ -29,7 +30,6 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `People4.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 ├⠀ `People5.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 ├⠀ `Vehicles.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
-├⠀ `Monster3.png` | 2023 | VictorSena [CC-BY] | https://vashmaker.blogspot.com/p/works.html
 └⠀ `template.png` | 2023 | Community [CC0] | https://easyrpg.org/
 **📁 `ChipSet`**|  
 ├⠀ `Dungeon.png` | 2022 | JasonPerry [CC0] | https://finalbossblues.itch.io/
