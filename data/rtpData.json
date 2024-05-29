@@ -1962,6 +1962,13 @@
             "authors": "null-painter-error [cc0]",
             "sources": "https://null-painter-error.itch.io/"
         },
+        "Absorb2.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
         "Attack1.wav": {
             "status": "done",
             "year": "2022",
@@ -1983,6 +1990,13 @@
             "authors": "JosephSeraph [CC0]",
             "sources": "https://twitter.com/SeraphCircle"
         },
+        "Barrier1.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
         "Barrier2.wav": {
             "status": "wip",
             "year": "2023",
@@ -2003,6 +2017,13 @@
             "from": "RPG Maker 2000/2003",
             "authors": "null-painter-error [cc0]",
             "sources": "https://null-painter-error.itch.io/"
+        },
+        "Blow4.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
         },
         "Breath.wav": {
             "status": "done",
@@ -2088,6 +2109,27 @@
             "authors": "lavendersiren [CC0]",
             "sources": "https://jingloria.wertercatt.com/dungeoncrashers/index.html"
         },
+        "Collapse1.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
+        "Collapse2.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
+        "Combat2.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
         "Confusion.wav": {
             "status": "done",
             "year": "2022",
@@ -2108,6 +2150,27 @@
             "from": "RPG Maker 2000/2003",
             "authors": "JosephSeraph [CC0]",
             "sources": "https://twitter.com/SeraphCircle"
+        },
+        "Damage2.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
+        "Darkness3.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
+        "Darkness4.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
         },
         "Darkness5.wav": {
             "status": "review",
@@ -2136,6 +2199,13 @@
             "from": "RPG Maker 2000/2003",
             "authors": " celestialghost8 [CC0]",
             "sources": "http://opengameart.org/content/8bit-sfx"
+        },
+        "Earth7.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
         },
         "Earth8.wav": {
             "status": "wip",
@@ -2270,6 +2340,13 @@
             "authors": "JosephSeraph [CC0]",
             "sources": "https://twitter.com/SeraphCircle"
         },
+        "Ice6.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
         "Ice7.wav": {
             "status": "done",
             "year": "2022",
@@ -2298,6 +2375,13 @@
             "authors": " LokiF [CC0]",
             "sources": "https://opengameart.org/content/gui-sound-effects"
         },
+        "Magic1.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
         "Move.wav": {
             "status": "review",
             "year": "2024",
@@ -2325,6 +2409,20 @@
             "from": "RPG Maker 2000/2003",
             "authors": "lumiscosity [CC-BY]",
             "sources": "https://lumiscosity.neocities.org/"
+        },
+        "Recovery5.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
+        "Recovery8.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "Gadesx [CC0]",
+            "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
         },
         "Sandstorm.wav": {
             "status": "review",
