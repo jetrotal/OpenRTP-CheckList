@@ -10,7 +10,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 **📁 `Battle`**|  
 ├⠀ `Arrow.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
 ├⠀ `Blow.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
-└⠀ `Sword1.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
+├⠀ `Sword1.png` | 2022 | Someoneman [cc0] | https://github.com/Someoneman
 **📁 `BattleWeapon`**|  
 └⠀ `Weapon.png` | 2010 | russidan (Alephman) [CC-BY] | None
 **📁 `CharSet`**|  
@@ -80,7 +80,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Opening 2.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `Sorrow.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 ├⠀ `Town 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
-└⠀ `Vehicle 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
+├⠀ `Vehicle 1.mid` | 2010 |  Juan Manuel Nigretti [CC-BY] | https://soundcloud.com/goodgameaudio
 **📁 `Panorama`**|  
 ├⠀ `Cosmos1.png` | 2015 |  Tom Lemmens [CC-BY] [OGA-BY] | https://github.com/lemtom
 ├⠀ `Dawn1.png` | 2015 |  Tom Lemmens [CC-BY] [OGA-BY] | https://github.com/lemtom
@@ -114,9 +114,7 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Buzzer1.wav` | 2024 | lumiscosity [CC-BY] | https://lumiscosity.neocities.org/
 ├⠀ `Buzzer2.wav` | 2024 | lumiscosity [CC-BY] | https://lumiscosity.neocities.org/
 ├⠀ `Buzzer3.wav` | 2024 | lumiscosity [CC-BY] | https://lumiscosity.neocities.org/
-├⠀ `Buzzer4.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Cancel1.wav` | 2009 |  LokiF [CC0] | https://opengameart.org/content/gui-sound-effects
-├⠀ `Cancel2.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Chime1.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Chime2.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Clock.wav` | 2023 | lavendersiren [CC0] | https://jingloria.wertercatt.com/dungeoncrashers/index.html
@@ -126,7 +124,6 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Combat2.wav` | 2024 | Gadesx [CC0] | https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079
 ├⠀ `Confusion.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Cursor1.wav` | 2012 |  Kenney [CC0] | https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks
-├⠀ `Cursor2.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Damage2.wav` | 2024 | Gadesx [CC0] | https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079
 ├⠀ `Darkness3.wav` | 2024 | Gadesx [CC0] | https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079
 ├⠀ `Darkness4.wav` | 2024 | Gadesx [CC0] | https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079
@@ -160,7 +157,6 @@ Asset⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|Year|Authors and License|Auth
 ├⠀ `Ice7.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Ice9.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
 ├⠀ `Item1.wav` | 2024 | lumiscosity [CC-BY] | https://lumiscosity.neocities.org/
-├⠀ `Item2.wav` | 2009 |  LokiF [CC0] | https://opengameart.org/content/gui-sound-effects
 ├⠀ `Magic1.wav` | 2024 | Gadesx [CC0] | https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079
 ├⠀ `Move.wav` | 2024 | lumiscosity [CC-BY] | https://lumiscosity.neocities.org/
 ├⠀ `Poison.wav` | 2022 | JosephSeraph [CC0] | https://twitter.com/SeraphCircle
