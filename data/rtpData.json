@@ -2375,6 +2375,13 @@
             "authors": "null-painter-error [cc0]",
             "sources": "https://null-painter-error.itch.io/"
         },
+        "Flash3.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lumiscosity [CC-BY]",
+            "sources": "https://lumiscosity.neocities.org/"
+        },
         "Fog1.wav": {
             "status": "done",
             "year": "2022",
@@ -2500,6 +2507,13 @@
             "from": "RPG Maker 2000/2003",
             "authors": "Gadesx [CC0]",
             "sources": "https://community.easyrpg.org/t/some-sfx-and-maybe-future-content/1079"
+        },
+        "Magic2.wav": {
+            "status": "review",
+            "year": "2024",
+            "from": "RPG Maker 2000/2003",
+            "authors": "lumiscosity [CC-BY]",
+            "sources": "https://lumiscosity.neocities.org/"
         },
         "Monster1.wav": {
             "status": "review",
