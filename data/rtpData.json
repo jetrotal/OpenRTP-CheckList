@@ -1067,6 +1067,20 @@
             "from": "RPG Maker 2000/2003",
             "authors": "VictorSena [CC-BY]",
             "sources": "https://vashmaker.blogspot.com/p/works.html"
+        },
+        "template A.png": {
+            "status": "review",
+            "year": "2025",
+            "from": "RPG Maker 2000/2003",
+            "authors": "VictorSena [CC0]",
+            "sources": "https://vashmaker.blogspot.com/p/works.html"
+        },
+        "template B.png": {
+            "status": "review",
+            "year": "2025",
+            "from": "RPG Maker 2000/2003",
+            "authors": "VictorSena [CC0]",
+            "sources": "https://vashmaker.blogspot.com/p/works.html"
         }
     },
     "BattleWeapon": {
