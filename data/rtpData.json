@@ -1,18 +1,18 @@
 {
     "Backdrop": {
         "Arena.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "sidewinder91 [CC0]",
+            "sources": "https://easyrpg.org/"
         },
         "Bathhouse.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "sidewinder91 [CC0]",
+            "sources": "https://easyrpg.org/"
         },
         "Beach.png": {
             "status": "error",
@@ -36,18 +36,18 @@
             "sources": "https://discord.gg/stablediffusion"
         },
         "Desert.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "oplexitie [CC0]",
+            "sources": "https://www.deviantart.com/oplexitie"
         },
         "Dungeon1.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "sidewinder91 [CC0]",
+            "sources": "https://easyrpg.org/"
         },
         "Dungeon2.png": {
             "status": "error",
@@ -169,32 +169,32 @@
             "sources": "https://discord.gg/stablediffusion"
         },
         "Ship.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "sidewinder91 [CC0]",
+            "sources": "https://easyrpg.org/"
         },
         "Sky.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "Jetrotal [CC0]",
+            "sources": "https://github.com/jetrotal/"
         },
         "Snow Field.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "sidewinder91 [CC0]",
+            "sources": "https://easyrpg.org/"
         },
         "Space.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "oplexitie [CC0]",
+            "sources": "https://www.deviantart.com/oplexitie"
         },
         "Swamp.png": {
             "status": "error",
@@ -232,11 +232,11 @@
             "sources": "https://discord.gg/stablediffusion"
         },
         "Wasteland.png": {
-            "status": "error",
-            "year": "2022",
+            "status": "review",
+            "year": "2025",
             "from": "RPG Maker 2000/2003",
-            "authors": "stablediffusion [CC0]",
-            "sources": "https://discord.gg/stablediffusion"
+            "authors": "sidewinder91 [CC0]",
+            "sources": "https://easyrpg.org/"
         }
     },
     "Battle": {
